@@ -8,6 +8,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #20083D;
 }
 
 :root {
@@ -20,6 +21,10 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px 20px;
+}
+
+.title{
+    font-size: 80px;
 }
 
 .btn-primary {
@@ -108,9 +113,7 @@ body {
     flex: 1;
 }
 
-.hero-text h1 {
-    font-size: 80px;
-}
+
 
 .hero-section .blur-topleft {
     position: absolute;
@@ -134,4 +137,9 @@ body {
     right: -100px;
     z-index: -1;
     /* opacity: 0.9; */
+}
+
+/* !WHY SPORTS HEIST? */
+.why-sportsheist h1{
+    text-align: right;
 }
