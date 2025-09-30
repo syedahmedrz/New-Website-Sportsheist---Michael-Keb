@@ -106,8 +106,6 @@
     flex: 1;
 }
 
-
-
 .hero-section .blur-topleft {
     position: absolute;
     width: 300px;
@@ -139,9 +137,32 @@
 
 .why-sportsheist .card {
     display: flex;
+    border: 2px solid #542BE2;
+    border-radius: 12px;
+    padding: 50px;
+    gap: 20px;
+    background-color: #0F0B1E;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 20px;
+    min-height: 300px;
+    align-items: center;
 }
 
 .why-sportsheist .card-left,
 .card-right {
     flex: 1;
+}
+
+.why-sportsheist .blur-rightmiddle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #DFAA11;
+    filter: blur(30px);
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+    z-index: -1;
 }
