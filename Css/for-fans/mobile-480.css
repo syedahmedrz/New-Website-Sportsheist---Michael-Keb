@@ -154,6 +154,21 @@
     z-index: -1;
 }
 
+/* !Fair & Secure Participation */
+.fair-secure-section .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.fair-secure-section button {
+    width: 100%;
+}
+
+.fair-secure-section .getstr-features .card {
+    padding: 20px 0px;
+}
+
 
 
 /* !Footer */

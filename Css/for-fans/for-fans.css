@@ -344,6 +344,81 @@
     flex: 1;
 }
 
+/* !Fair & Secure Participation */
+.fair-secure-section {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.fair-secure-section .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: row-reverse;
+
+}
+
+.fair-secure-section .getstr-left,
+.getstr-right {
+    flex: 1;
+}
+
+.fair-secure-section .title {
+    font-size: 50px;
+}
+
+.fair-secure-section .getstr-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.fair-secure-section .getstr-features {
+    width: 100%;
+}
+
+.fair-secure-section .getstr-features .card {
+    background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
+        linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
+    border-radius: 12px;
+    /* Example for a highly rounded border */
+    border: 1.4px solid transparent;
+    background-color: #0F0B1E;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.fair-secure-section .getstr-features .card span {
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.fair-secure-section button {
+    min-width: 400px;
+}
+
+.fair-secure-section .blur-bottomleft {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #542BE2;
+    filter: blur(80px);
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
 
 
 /* !Footer */
