@@ -46,3 +46,16 @@
 .why-sportsheist .card p:nth-child(1) {
     font-size: 28px !important;
 }
+
+/* ! How we’re changing the game Section */
+.how-were-changing-the-game .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "image"
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+        gap: 20px;
+}

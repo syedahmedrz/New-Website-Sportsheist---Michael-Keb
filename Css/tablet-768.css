@@ -32,3 +32,16 @@
 .hero-text p {
     font-size: 15px !important;
 }
+
+/* ! How we’re changing the game Section */
+.how-were-changing-the-game .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "image card1"
+        "image card2"
+        "image card3"
+        "image card4";
+        gap: 50px;
+}
