@@ -102,6 +102,59 @@
     text-align: center;
 }
 
+/* !Virtual Fan, Looker Room */
+.virtual-fan-section .cards .container {
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px 0px;
+}
+
+.virtual-fan-section h1 {
+    font-size: 40px;
+}
+
+.virtual-fan-section .vr {
+    display: none;
+}
+
+.virtual-fan-section .cards .card1,
+.virtual-fan-section .cards .card2 {
+    width: 100%;
+    padding: 50px 50px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.virtual-fan-section .blur-bottomcenter {
+    display: none;
+}
+
+.virtual-fan-section .cards .card1 .blur-bottomcenter1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #542BE2;
+    filter: blur(100px);
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.virtual-fan-section .cards .card2 .blur-bottomcenter2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #DFAA11;
+    filter: blur(100px);
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+
 
 /* !Footer */
 .footer .container {
