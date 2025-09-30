@@ -14,7 +14,24 @@
     text-align: center;
     border-radius: 12px;
     cursor: pointer;
+}
 
+.btn-outline-white {
+    display: block;
+    border: 1px solid white;
+    outline: none;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 /* Header Styles */
@@ -507,4 +524,76 @@
     bottom: 10px;
     left: 10px;
     z-index: -1;
+}
+
+/* !Ready to Take Your Club to the Next Level? */
+.ready-to-take-your-club {
+    background-color: #0F0B1E;
+    margin-top: 200px;
+    position: relative;
+    /* z-index: 1; */
+}
+
+
+.ready-to-take-your-club .container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ready-to-take-your-club .blur-topcenter {
+    position: absolute;
+    width: 70%;
+    height: 100px;
+    background: #DFAA11;
+    filter: blur(60px);
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -2;
+
+}
+
+/* !Footer */
+.footer .container {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer .footer-links {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    list-style-type: none;
+}
+
+.footer .footer-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.footer .credits {
+    padding-top: 0px;
+}
+
+.footer .footer-right {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer .footer-login-1 {
+    display: none;
+}
+
+.footer .footer-login-2 {
+    display: block;
 }

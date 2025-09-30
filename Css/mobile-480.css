@@ -146,3 +146,25 @@
 .get-started button {
     width: 100%;
 }
+
+/* !Footer */
+.footer .container {
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.footer .footer-login-1 {
+    display: block;
+}
+
+.footer .footer-login-2 {
+    display: none;
+}
+
+.footer .footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
