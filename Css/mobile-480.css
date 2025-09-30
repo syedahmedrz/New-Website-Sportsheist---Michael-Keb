@@ -147,6 +147,10 @@
     width: 100%;
 }
 
+.get-started .getstr-features .card {
+    padding: 20px 0px;
+}
+
 /* !Footer */
 .footer .container {
     flex-direction: column;
