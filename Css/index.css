@@ -1,5 +1,3 @@
-
-
 .btn-primary {
     display: block;
     border: none;
@@ -67,6 +65,27 @@
     border-radius: 12px;
 }
 
+.hambarger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid rgba(255, 255, 255, 0.395);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    display: none;
+}
+
+.hambarger-menu span {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    border-radius: 2px;
+}
 
 
 .hero-section {
@@ -82,7 +101,8 @@
     flex-direction: column;
 }
 
-.hero-text, .hero-image {
+.hero-text,
+.hero-image {
     flex: 1;
 }
 
@@ -113,6 +133,15 @@
 }
 
 /* !WHY SPORTS HEIST? */
-.why-sportsheist h1{
+.why-sportsheist h1 {
     text-align: right;
+}
+
+.why-sportsheist .card {
+    display: flex;
+}
+
+.why-sportsheist .card-left,
+.card-right {
+    flex: 1;
 }

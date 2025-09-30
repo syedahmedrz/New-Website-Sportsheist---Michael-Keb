@@ -3,7 +3,19 @@
     font-size: 35px;
 }
 
-.navbar .nav-links {
+.navbar {
+    border: 0.5px solid rgba(255, 255, 255, 0.395);
+    border-radius: 12px;
+    height: 70px;
+    padding: 0 15px;
+}
+
+.hambarger-menu {
+    display: flex;
+}
+
+
+.navbar .nav-links, .nav-buttons {
     display: none;
 }
 
