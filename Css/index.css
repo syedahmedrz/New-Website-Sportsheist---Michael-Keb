@@ -192,22 +192,22 @@
         gap: 50px;
 }
 
-.image {
+.how-were-changing-the-game .image {
     grid-area: image;
 }
 
-.card1 {
+.how-were-changing-the-game .card1 {
     grid-area: card1;
 }
 
-.card2 {
+.how-were-changing-the-game .card2 {
     grid-area: card2;
 }
 
-.card3 {
+.how-were-changing-the-game .card3 {
     grid-area: card3;
 }
 
-.card4 {
+.how-were-changing-the-game .card4 {
     grid-area: card4;
 }
