@@ -137,8 +137,18 @@
 
 .why-sportsheist .card {
     display: flex;
-    border: 2px solid #542BE2;
-    border-radius: 12px;
+    /* border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1 border-box;
+    border-radius: 12px !important;
+
+    border: 1px solid transparent; */
+
+    background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
+              linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
+  border-radius: 12px; /* Example for a highly rounded border */
+  border: 1.4px solid transparent;
+
+    overflow: hidden;
     padding: 50px;
     gap: 20px;
     background-color: #0F0B1E;
