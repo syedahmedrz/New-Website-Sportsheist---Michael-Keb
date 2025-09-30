@@ -11,3 +11,11 @@
 .hero-text {
     align-items: center;
 }
+
+.hero-text h1 {
+    font-size: 35px;
+}
+
+.hero-text p {
+    font-size: 15px !important;
+}
