@@ -1,0 +1,563 @@
+/* ! Header Styles */
+.header {
+    width: 100%;
+    background: linear-gradient(to right, #0F0B1E, #20083D);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar .nav-links {
+    display: flex;
+    background-color: #EDF0F533;
+    border-radius: 12px;
+    padding: 5px;
+    height: 50px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    width: 140px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links .nav-links-login{
+    display: none;
+}
+
+.nav-links .active {
+    color: #FFFFFF;
+    background-color: var(--secondary-color);
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.hambarger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid rgba(255, 255, 255, 0.395);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    display: none;
+}
+
+.hambarger-menu span {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+.hero-section {
+    margin-top: 80px !important;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text,
+.hero-image {
+    flex: 1;
+}
+
+.hero-section .blur-topleft {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #542BE2;
+    filter: blur(150px);
+    top: -100px;
+    left: -100px;
+    z-index: -1;
+    /* opacity: 0.7; */
+}
+
+.hero-section .blur-bottomright {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #DFAA11;
+    filter: blur(150px);
+    bottom: -100px;
+    right: -100px;
+    z-index: -1;
+    /* opacity: 0.9; */
+}
+
+/* !WHY SPORTS HEIST? */
+.why-sportsheist h1 {
+    text-align: right;
+}
+
+.why-sportsheist .card {
+    display: flex;
+    /* border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1 border-box;
+    border-radius: 12px !important;
+
+    border: 1px solid transparent; */
+
+    background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
+        linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
+    border-radius: 12px;
+    /* Example for a highly rounded border */
+    border: 1.4px solid transparent;
+
+    overflow: hidden;
+    padding: 50px;
+    gap: 20px;
+    background-color: #0F0B1E;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 20px;
+    min-height: 300px;
+    align-items: center;
+}
+
+.why-sportsheist .card-left,
+.card-right {
+    flex: 1;
+}
+
+.why-sportsheist .blur-rightmiddle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #DFAA11;
+    filter: blur(30px);
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+/* ! How we’re changing the game Section */
+.how-were-changing-the-game {
+    z-index: 1;
+    position: relative;
+}
+
+.how-were-changing-the-game>div h1,
+.how-were-changing-the-game>div h2,
+.how-were-changing-the-game>div h3,
+.how-were-changing-the-game>div p {
+    font-family: "Poppins", sans-serif;
+}
+
+.how-were-changing-the-game .title {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.how-were-changing-the-game .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 01fr 1fr;
+    grid-template-areas:
+        "card1 image card3"
+        "card2 image card4";
+    gap: 50px;
+}
+
+.how-were-changing-the-game .image {
+    grid-area: image;
+}
+
+.how-were-changing-the-game .card1 {
+    grid-area: card1;
+}
+
+.how-were-changing-the-game .card2 {
+    grid-area: card2;
+}
+
+.how-were-changing-the-game .card3 {
+    grid-area: card3;
+}
+
+.how-were-changing-the-game .card4 {
+    grid-area: card4;
+}
+
+.how-were-changing-the-game .blur-center {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* !Choose your path */
+.choose-your-path .title:nth-child(1),
+.sub-title {
+    text-align: center;
+}
+
+.choose-your-path .cards {
+    background-color: #0F0B1E;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.blur-bottomcenter {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #DFAA11;
+    filter: blur(100px);
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.choose-your-path .cards .container {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.choose-your-path .vr {
+    width: 2px;
+    height: 200px;
+    background-color: white;
+}
+
+.choose-your-path .cards .card1,
+.choose-your-path .cards .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+    flex: 1;
+}
+
+
+/* !How it works */
+.how-it-works {
+    z-index: 1;
+    position: relative;
+}
+
+.how-it-works>div h1,
+.how-it-works>div h2,
+.how-it-works>div h3,
+.how-it-works>div p {
+    font-family: "Poppins", sans-serif;
+}
+
+.how-it-works .title {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.how-it-works .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 01fr 1fr;
+    grid-template-areas:
+        "card1 image card3"
+        "card2 image card4";
+    gap: 50px;
+    background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
+        linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
+    border-radius: 12px;
+    /* Example for a highly rounded border */
+    border: 1.4px solid transparent;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.how-it-works .image {
+    grid-area: image;
+}
+
+.how-it-works .card1 {
+    grid-area: card1;
+}
+
+.how-it-works .card2 {
+    grid-area: card2;
+}
+
+.how-it-works .card3 {
+    grid-area: card3;
+}
+
+.how-it-works .card4 {
+    grid-area: card4;
+}
+
+.how-it-works .blur-center {
+    position: absolute;
+    width: 60%;
+    height: 200px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* ! Our Sports & Club Partnerships */
+.horizontal-images {
+    display: flex;
+    flex-wrap: wrap;
+    /* wrap on small screens */
+    z-index: 1;
+    position: relative;
+    margin-top: 100px;
+}
+
+.horizontal-images .image-card {
+    flex: 1 1 20%;
+    /* 5 images take equal width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 300px;
+}
+
+.horizontal-images .image-card img {
+    width: 100%;
+    display: block;
+    border-radius: 0;
+    min-height: 500px;
+    /* no margin, no spacing */
+}
+
+.horizontal-images .image-card p {
+    margin: 5px 0 10px;
+    font-size: 20px;
+}
+
+.horizontal-images .blur-topcenter {
+    position: absolute;
+    width: 70%;
+    height: 100px;
+    background: #DFAA11;
+    filter: blur(60px);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+
+}
+
+.horizontal-images .center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+/* !Partnership */
+.partnership .container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ! Get Started */
+.get-started {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.get-started .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.get-started .getstr-left,
+.getstr-right {
+    flex: 1;
+}
+
+.get-started .title {
+    font-size: 50px;
+}
+
+.get-started .getstr-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.get-started .getstr-features {
+    width: 100%;
+}
+
+.get-started .getstr-features .card {
+    background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
+        linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
+    border-radius: 12px;
+    /* Example for a highly rounded border */
+    border: 1.4px solid transparent;
+    background-color: #0F0B1E;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.get-started .getstr-features .card span {
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.get-started button {
+    min-width: 300px;
+}
+
+.get-started .blur-bottomleft {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #542BE2;
+    filter: blur(80px);
+    bottom: 10px;
+    left: 10px;
+    z-index: -1;
+}
+
+/* !Ready to Take Your Club to the Next Level? */
+.ready-to-take-your-club {
+    background-color: #0F0B1E;
+    margin-top: 200px;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.ready-to-take-your-club .container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ready-to-take-your-club .blur-topcenter {
+    position: absolute;
+    width: 70%;
+    height: 100px;
+    background: #DFAA11;
+    filter: blur(60px);
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -2;
+
+}
+
+/* !Footer */
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-links {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    list-style-type: none;
+}
+
+.footer .footer-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.footer .credits {
+    padding-top: 0px;
+}
+
+.footer .footer-right {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer .footer-login-1 {
+    display: none;
+}
+
+.footer .footer-login-2 {
+    display: block;
+}

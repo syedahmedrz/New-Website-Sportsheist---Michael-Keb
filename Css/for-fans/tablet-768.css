@@ -1,0 +1,101 @@
+/* !Global */
+.title {
+    font-size: 50px;
+}
+
+.navbar {
+    border: 0.5px solid rgba(255, 255, 255, 0.395);
+    border-radius: 12px;
+    height: 70px;
+    padding: 0 15px;
+}
+
+.hambarger-menu {
+    display: flex;
+}
+
+
+.navbar 
+.nav-buttons {
+    display: none;
+}
+
+
+.navbar .nav-links {
+    position: fixed;
+    top: 150px;
+    right: 20px;
+    min-width: 230px;
+    height: fit-content;
+    background-color: #0F0B1E;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+    display: none;
+    z-index: 100;
+}
+
+.nav-links li {
+    width: 100%;
+}
+
+.nav-links li a {
+    width: 100%;
+    justify-content: left;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.nav-links .nav-links-login{
+    display: block;
+}
+
+.hero-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.hero-text {
+    align-items: center;
+}
+
+.hero-text p {
+    font-size: 15px !important;
+}
+
+/* ! How we’re changing the game Section */
+.how-were-changing-the-game .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "image card1"
+        "image card2"
+        "image card3"
+        "image card4";
+    gap: 50px;
+}
+
+/* !How it works */
+.how-it-works .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "image image"
+        "card1 card2"
+        "card3 card4";
+    gap: 50px;
+}
+
+/* ! Get Started */
+.get-started .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.footer .footer-login-1 {
+    display: none;
+}
