@@ -175,6 +175,67 @@
 }
 
 
+/* ! Your Voice Matters */
+.your-voice-section {
+    z-index: 1;
+    position: relative;
+}
+
+.your-voice-section>div h1,
+.your-voice-section>div h2,
+.your-voice-section>div h3,
+.your-voice-section>div p {
+    font-family: "Poppins", sans-serif;
+}
+
+.your-voice-section .title {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.your-voice-section .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 01fr 1fr;
+    grid-template-areas:
+        "card1 image card3"
+        "card2 image card4";
+    gap: 50px;
+}
+
+.your-voice-section .image {
+    grid-area: image;
+}
+
+.your-voice-section .card1 {
+    grid-area: card1;
+}
+
+.your-voice-section .card2 {
+    grid-area: card2;
+}
+
+.your-voice-section .card3 {
+    grid-area: card3;
+}
+
+.your-voice-section .card4 {
+    grid-area: card4;
+}
+
+.your-voice-section .blur-center {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
 /* !Footer */
 .footer .container {
     display: flex;

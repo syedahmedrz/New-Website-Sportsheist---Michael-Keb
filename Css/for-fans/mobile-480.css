@@ -82,6 +82,26 @@
     font-size: 28px !important;
 }
 
+/* ! Your Voice Matters  */
+.your-voice-section .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "image"
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+    gap: 20px;
+}
+
+.your-voice-section .card1,
+.your-voice-section .card2,
+.your-voice-section .card3,
+.your-voice-section .card4 {
+    text-align: center;
+}
+
 
 /* !Footer */
 .footer .container {

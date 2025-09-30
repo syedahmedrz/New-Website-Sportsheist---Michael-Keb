@@ -66,11 +66,22 @@
 
 
 /* !Get Involved. instantly. */
-
-
 .get-involved-section .card-row {
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
+}
+
+/* ! Your Voice Matters  */
+.your-voice-section .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "image card1"
+        "image card2"
+        "image card3"
+        "image card4";
+    gap: 50px;
 }
