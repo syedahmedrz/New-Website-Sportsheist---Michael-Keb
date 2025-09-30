@@ -40,6 +40,10 @@
     justify-content: center;
 }
 
+.nav-links .nav-links-login{
+    display: none;
+}
+
 .nav-links .active {
     color: #FFFFFF;
     background-color: var(--secondary-color);
