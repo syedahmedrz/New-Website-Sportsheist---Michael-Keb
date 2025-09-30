@@ -135,3 +135,14 @@
 .how-it-works .card4 {
     text-align: center;
 }
+
+/* ! Get Started */
+.get-started .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.get-started button {
+    width: 100%;
+}

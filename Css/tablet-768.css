@@ -58,3 +58,10 @@
         "card3 card4";
     gap: 50px;
 }
+
+/* ! Get Started */
+.get-started .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
