@@ -1,40 +1,4 @@
-.btn-primary {
-    display: block;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    background-color: var(--primary-color);
-    color: white;
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    width: 140px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 12px;
-    cursor: pointer;
-}
-
-.btn-outline-white {
-    display: block;
-    border: 1px solid white;
-    outline: none;
-    text-decoration: none;
-    background-color: transparent;
-    color: white;
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    width: 140px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 12px;
-    cursor: pointer;
-}
-
-/* Header Styles */
+/* ! Header Styles */
 .header {
     width: 100%;
     background: linear-gradient(to right, #0F0B1E, #20083D);
@@ -256,7 +220,6 @@
 }
 
 /* !Choose your path */
-
 .choose-your-path .title:nth-child(1),
 .sub-title {
     text-align: center;
@@ -378,8 +341,6 @@
     z-index: -1;
 }
 
-
-
 /* ! Our Sports & Club Partnerships */
 .horizontal-images {
     display: flex;
@@ -440,10 +401,7 @@
     gap: 10px;
 }
 
-/*  */
-
 /* !Partnership */
-
 .partnership .container {
     display: flex;
     gap: 20px;
@@ -452,7 +410,6 @@
     flex-direction: column;
     text-align: center;
 }
-
 
 /* ! Get Started */
 .get-started {
@@ -535,7 +492,6 @@
     position: relative;
     /* z-index: 1; */
 }
-
 
 .ready-to-take-your-club .container {
     display: flex;

@@ -1,4 +1,4 @@
-/* Global */
+/* !Global */
 .title {
     font-size: 50px;
 }
@@ -151,7 +151,6 @@
 .footer .container {
     flex-direction: column;
     gap: 50px;
-
 }
 
 .footer .footer-login-1 {
