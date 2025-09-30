@@ -468,7 +468,8 @@
 
 }
 
-.get-started .getstr-left, .getstr-right {
+.get-started .getstr-left,
+.getstr-right {
     flex: 1;
 }
 
@@ -483,6 +484,7 @@
     align-items: center;
     width: 100%;
 }
+
 .get-started .getstr-features {
     width: 100%;
 }
@@ -505,7 +507,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-.get-started .getstr-features .card span{
+.get-started .getstr-features .card span {
     font-weight: bold;
     font-family: "Poppins", sans-serif;
 
@@ -560,8 +562,8 @@
 /* !Footer */
 .footer .container {
     display: flex;
-   justify-content: space-between;
-   align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer .footer-links {
