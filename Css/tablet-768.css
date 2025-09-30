@@ -15,7 +15,8 @@
 }
 
 
-.navbar .nav-links, .nav-buttons {
+.navbar .nav-links,
+.nav-buttons {
     display: none;
 }
 
@@ -43,5 +44,5 @@
         "image card2"
         "image card3"
         "image card4";
-        gap: 50px;
+    gap: 50px;
 }

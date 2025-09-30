@@ -183,7 +183,7 @@
 .how-were-changing-the-game .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 01fr 1fr;
+        grid-template-rows: 01fr 1fr;
     grid-template-areas:
         "card1 image card3"
         "card2 image card4";
