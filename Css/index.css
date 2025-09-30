@@ -166,3 +166,48 @@
     transform: translateY(-50%);
     z-index: -1;
 }
+
+/* ! How we’re changing the game Section */
+.how-were-changing-the-game > div h1,
+.how-were-changing-the-game > div h2,
+.how-were-changing-the-game > div h3,
+.how-were-changing-the-game > div p {
+    font-family: "Poppins", sans-serif;
+}
+
+.how-were-changing-the-game .title {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.how-were-changing-the-game .grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 01fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "card1 image card3"
+        "card2 image card4";
+        gap: 50px;
+}
+
+.image {
+    grid-area: image;
+}
+
+.card1 {
+    grid-area: card1;
+}
+
+.card2 {
+    grid-area: card2;
+}
+
+.card3 {
+    grid-area: card3;
+}
+
+.card4 {
+    grid-area: card4;
+}
