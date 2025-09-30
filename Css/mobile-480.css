@@ -115,3 +115,23 @@
     transform: translateX(-50%);
     z-index: -1;
 }
+
+/* !How it works */
+.how-it-works .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "image"
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+    gap: 20px;
+}
+
+.how-it-works .card1,
+.how-it-works .card2,
+.how-it-works .card3,
+.how-it-works .card4 {
+    text-align: center;
+}

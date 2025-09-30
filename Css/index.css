@@ -144,9 +144,10 @@
     border: 1px solid transparent; */
 
     background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
-              linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
-  border-radius: 12px; /* Example for a highly rounded border */
-  border: 1.4px solid transparent;
+        linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
+    border-radius: 12px;
+    /* Example for a highly rounded border */
+    border: 1.4px solid transparent;
 
     overflow: hidden;
     padding: 50px;
@@ -288,4 +289,65 @@
     text-align: center;
     gap: 0px;
     flex: 1;
+}
+
+
+/* !How it works */
+.how-it-works {
+    z-index: 1;
+    position: relative;
+}
+
+.how-it-works>div h1,
+.how-it-works>div h2,
+.how-it-works>div h3,
+.how-it-works>div p {
+    font-family: "Poppins", sans-serif;
+}
+
+.how-it-works .title {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.how-it-works .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 01fr 1fr;
+    grid-template-areas:
+        "card1 image card3"
+        "card2 image card4";
+    gap: 50px;
+}
+
+.how-it-works .image {
+    grid-area: image;
+}
+
+.how-it-works .card1 {
+    grid-area: card1;
+}
+
+.how-it-works .card2 {
+    grid-area: card2;
+}
+
+.how-it-works .card3 {
+    grid-area: card3;
+}
+
+.how-it-works .card4 {
+    grid-area: card4;
+}
+
+.how-it-works .blur-center {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
