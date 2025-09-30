@@ -64,38 +64,13 @@
     font-size: 15px !important;
 }
 
-/* ! How we’re changing the game Section */
-.how-were-changing-the-game .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-        "image card1"
-        "image card2"
-        "image card3"
-        "image card4";
-    gap: 50px;
-}
 
-/* !How it works */
-.how-it-works .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-        "image image"
-        "card1 card2"
-        "card3 card4";
-    gap: 50px;
-}
+/* !Get Involved. instantly. */
 
-/* ! Get Started */
-.get-started .container {
+
+.get-involved-section .card-row {
+    display: flex;
     flex-direction: column;
-    text-align: center;
     gap: 20px;
-}
-
-.footer .footer-login-1 {
-    display: none;
+    justify-content: center;
 }
