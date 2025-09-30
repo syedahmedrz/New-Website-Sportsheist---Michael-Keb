@@ -173,10 +173,10 @@
     position: relative;
 }
 
-.how-were-changing-the-game > div h1,
-.how-were-changing-the-game > div h2,
-.how-were-changing-the-game > div h3,
-.how-were-changing-the-game > div p {
+.how-were-changing-the-game>div h1,
+.how-were-changing-the-game>div h2,
+.how-were-changing-the-game>div h3,
+.how-were-changing-the-game>div p {
     font-family: "Poppins", sans-serif;
 }
 
@@ -188,11 +188,11 @@
 .how-were-changing-the-game .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 01fr 1fr;
+    grid-template-rows: 01fr 1fr;
     grid-template-areas:
         "card1 image card3"
         "card2 image card4";
-        gap: 50px;
+    gap: 50px;
 }
 
 .how-were-changing-the-game .image {
@@ -225,4 +225,57 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
+}
+
+/* !Choose your path */
+
+.choose-your-path .title:nth-child(1),
+.sub-title {
+    text-align: center;
+}
+
+.choose-your-path .cards {
+    background-color: #0F0B1E;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.blur-bottomcenter {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #DFAA11;
+    filter: blur(100px);
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.choose-your-path .cards .container {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.choose-your-path .vr {
+    width: 2px;
+    height: 200px;
+    background-color: white;
+}
+
+.choose-your-path .cards .card1,
+.choose-your-path .cards .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+    flex: 1;
 }
