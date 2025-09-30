@@ -318,6 +318,15 @@
         "card1 image card3"
         "card2 image card4";
     gap: 50px;
+    background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
+        linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
+    border-radius: 12px;
+    /* Example for a highly rounded border */
+    border: 1.4px solid transparent;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .how-it-works .image {
@@ -342,7 +351,7 @@
 
 .how-it-works .blur-center {
     position: absolute;
-    width: 200px;
+    width: 60%;
     height: 200px;
     background: #542BE2;
     filter: blur(100px);
