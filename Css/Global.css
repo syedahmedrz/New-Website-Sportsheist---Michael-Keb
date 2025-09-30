@@ -37,6 +37,9 @@ section {
     display: flex;
     flex-wrap: wrap;
     /* wrap on small screens */
+    z-index: 1;
+    position: relative;
+    margin-top: 100px;
 }
 
 .horizontal-images .image-card {
@@ -60,6 +63,19 @@ section {
 .horizontal-images .image-card p {
     margin: 5px 0 10px;
     font-size: 20px;
+}
+
+.horizontal-images .blur-topcenter {
+    position: absolute;
+    width: 70%;
+    height: 100px;
+    background: #DFAA11;
+    filter: blur(60px);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+
 }
 
 /*  */
