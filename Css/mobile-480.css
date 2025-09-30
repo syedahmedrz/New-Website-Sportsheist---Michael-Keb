@@ -1,6 +1,6 @@
 /* Global */
 .title {
-    font-size: 35px;
+    font-size: 50px;
 }
 
 .navbar {
@@ -30,4 +30,19 @@
 
 .hero-text p {
     font-size: 15px !important;
+}
+
+/* !WHY SPORTS HEIST? */
+.why-sportsheist h1 {
+    text-align: center;
+}
+
+
+.why-sportsheist .card {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.why-sportsheist .card p:nth-child(1) {
+    font-size: 28px !important;
 }
