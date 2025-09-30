@@ -1,3 +1,13 @@
 .navbar .nav-links {
     display: none;
 }
+
+.hero-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.hero-text {
+    align-items: center;
+}
