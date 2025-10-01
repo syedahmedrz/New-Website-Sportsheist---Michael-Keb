@@ -121,6 +121,82 @@
     /* opacity: 0.9; */
 }
 
+/* ! Your Voice Matters */
+.your-voice-matters-section {
+    z-index: 1;
+    position: relative;
+}
+
+.your-voice-matters-section>div h1,
+.your-voice-matters-section>div h2,
+.your-voice-matters-section>div h3,
+.your-voice-matters-section>div p {
+    font-family: "Poppins", sans-serif;
+}
+
+.your-voice-matters-section .title {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.your-voice-matters-section .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 01fr 1fr;
+    grid-template-areas:
+        "card1 image card3"
+        "card2 image card4";
+    gap: 50px;
+}
+
+.your-voice-matters-section .image {
+    grid-area: image;
+}
+
+.your-voice-matters-section .card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card1;
+}
+
+.your-voice-matters-section .card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card2;
+}
+
+.your-voice-matters-section .card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card3;
+}
+
+.your-voice-matters-section .card4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card4;
+}
+
+.your-voice-matters-section .blur-center {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.your-voice-matters-section img {
+    width: 100%;
+    height: auto;
+}
 
 /* !Footer */
 .footer .container {

@@ -61,7 +61,26 @@
     font-size: 15px !important;
 }
 
+/* ! Your Voice Matters */
+.your-voice-matters-section .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "image"
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+    gap: 50px;
+}
 
+.your-voice-matters-section .card1,
+.your-voice-matters-section .card2,
+.your-voice-matters-section .card3,
+.your-voice-matters-section .card4 {
+    text-align: center;
+    align-items: center;
+}
 
 /* !Footer */
 .footer .container {

@@ -64,6 +64,18 @@
     font-size: 15px !important;
 }
 
+/* ! Your Voice Matters */
+.your-voice-matters-section .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "image card1"
+        "image card2"
+        "image card3"
+        "image card4";
+    gap: 50px;
+}
 
 .footer .footer-login-1 {
     display: none;
