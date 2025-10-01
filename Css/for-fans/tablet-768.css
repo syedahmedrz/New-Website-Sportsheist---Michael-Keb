@@ -101,6 +101,17 @@
 
 }
 
+/* ! Fair & Secure Participation */
+.fair-secure-part-section .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.footer .footer-login-1 {
+    display: none;
+}
+
 .footer .footer-login-1 {
     display: none;
 }

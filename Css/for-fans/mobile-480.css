@@ -158,6 +158,38 @@
 }
 
 
+/* ! Fair & Secure Participation */
+.fair-secure-part-section .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.fair-secure-part-section button {
+    width: 100%;
+}
+
+.fair-secure-part-section .getstr-features .card {
+    padding: 20px 20px;
+}
+
+.fair-secure-part-section .Download-btn {
+    display: flex;
+    gap: 10px;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.fair-secure-part-section .Download-btn a {
+    flex: 1;
+    width: 100%;
+}
+
+.fair-secure-part-section .btn-primary {
+    width: 100% !important;
+}
+
 /* !Footer */
 .footer .container {
     flex-direction: column;
