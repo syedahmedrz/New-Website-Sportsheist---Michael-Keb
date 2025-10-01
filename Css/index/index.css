@@ -40,7 +40,7 @@
     justify-content: center;
 }
 
-.nav-links .nav-links-login{
+.nav-links .nav-links-login {
     display: none;
 }
 
@@ -375,35 +375,60 @@
 
 /* ! Our Sports & Club Partnerships */
 .horizontal-images {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    /* flex-wrap: wrap; */
     /* wrap on small screens */
     z-index: 1;
     position: relative;
     margin-top: 100px;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .horizontal-images .image-card {
-    flex: 1 1 20%;
+    /* flex: 1; */
     /* 5 images take equal width */
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: end;
+    justify-content: center;
     text-align: center;
-    min-height: 300px;
+    min-height: 500px;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.horizontal-images .image-card img {
+.horizontal-images .image-card-1 {
+    background-image: url('/Assets/Images/home/RUGBY.png');
+}
+
+.horizontal-images .image-card-2 {
+    background-image: url('/Assets/Images/home/Soccer.png');
+}
+
+.horizontal-images .image-card-3 {
+    background-image: url('/Assets/Images/home/Baseball.png');
+}
+
+.horizontal-images .image-card-4 {
+    background-image: url('/Assets/Images/home/Cricket.png');
+}
+
+.horizontal-images .image-card-5 {
+    background-image: url('/Assets/Images/home/Basketball.png');
+}
+
+/* .horizontal-images .image-card img {
     width: 100%;
     display: block;
     border-radius: 0;
     min-height: 500px;
-    /* no margin, no spacing */
-}
+} */
 
 .horizontal-images .image-card p {
     margin: 5px 0 10px;
     font-size: 20px;
+    z-index: 100;
 }
 
 .horizontal-images .blur-topcenter {
@@ -421,16 +446,24 @@
 
 .horizontal-images .center-content {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0px;
+    left: 0px;
     text-align: center;
     z-index: 2;
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #0009;
+}
+
+.horizontal-images .center-content .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px;
 }
 
 /* !Partnership */
