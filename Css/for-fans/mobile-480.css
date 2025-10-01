@@ -190,6 +190,16 @@
     width: 100% !important;
 }
 
+/* !Be More Than a Spectator. Be a Decision-Maker! */
+.be-more-than-a-spectator-des-section .ready-to-take-your-club-img {
+    width: 90%;
+}
+
+.be-more-than-a-spectator-des-section .get-s-today {
+    width: 100%;
+}
+
+
 /* !Footer */
 .footer .container {
     flex-direction: column;
