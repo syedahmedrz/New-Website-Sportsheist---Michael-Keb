@@ -557,23 +557,23 @@
 }
 
 .horizontal-images .image-card-1 {
-    background-image: url('/Assets/Images/home/RUGBY.png');
+    background-image: url('../../Assets/Images/home/RUGBY.png');
 }
 
 .horizontal-images .image-card-2 {
-    background-image: url('/Assets/Images/home/Soccer.png');
+    background-image: url('../../Assets/Images/home/Soccer.png');
 }
 
 .horizontal-images .image-card-3 {
-    background-image: url('/Assets/Images/home/Baseball.png');
+    background-image: url('../../Assets/Images/home/Baseball.png');
 }
 
 .horizontal-images .image-card-4 {
-    background-image: url('/Assets/Images/home/Cricket.png');
+    background-image: url('../../Assets/Images/home/Cricket.png');
 }
 
 .horizontal-images .image-card-5 {
-    background-image: url('/Assets/Images/home/Basketball.png');
+    background-image: url('../../Assets/Images/home/Basketball.png');
 }
 
 /* .horizontal-images .image-card img {
