@@ -79,14 +79,14 @@
 /* ! How we’re changing the game Section */
 .how-were-changing-the-game .grid {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
     grid-template-areas:
         "image"
         "card1"
         "card2"
         "card3"
         "card4";
-    gap: 20px;
+    gap: 50px;
 }
 
 .how-were-changing-the-game .card1,

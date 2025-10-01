@@ -228,6 +228,11 @@
     z-index: -1;
 }
 
+.how-were-changing-the-game img {
+    width: 100%;
+    height: auto;
+}
+
 /* !Choose your path */
 .choose-your-path {
     position: relative;
