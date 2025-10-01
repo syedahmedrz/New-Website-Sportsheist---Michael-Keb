@@ -170,6 +170,18 @@
 }
 
 /* ! Join the Sports Revolution */
+.join-the-sport-revo .ready-to-take-your-club-img {
+    width: 90%;
+}
+
+.join-the-sport-revo .btn-group {
+    flex-direction: column;
+    width: 100%;
+}
+
+.join-the-sport-revo .btn-group button {
+    width: 100% !important;
+}
 
 /* !Footer */
 .footer .container {
