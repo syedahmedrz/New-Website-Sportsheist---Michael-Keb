@@ -163,6 +163,17 @@
     border-bottom-left-radius: inherit;
 }
 
+.card-center-blur {
+     position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #542BE2;
+    filter: blur(40px);
+    left: 0px;
+    bottom: -150px;
+    /* z-index: ; */
+}
+
 .why-sportsheist .card-left1 .cls {
     position: absolute;
     width: 100%;
