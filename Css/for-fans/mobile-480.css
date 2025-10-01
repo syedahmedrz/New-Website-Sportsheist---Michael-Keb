@@ -61,6 +61,10 @@
     font-size: 15px !important;
 }
 
+.hero-image {
+    margin-bottom: 0px !important;
+}
+
 /* ! Your Voice Matters */
 .your-voice-matters-section .grid {
     grid-template-columns: 1fr;
