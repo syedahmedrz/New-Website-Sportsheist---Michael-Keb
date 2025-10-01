@@ -237,6 +237,24 @@
 .choose-your-path {
     position: relative;
     z-index: 1;
+    /* overflow: hidden; */
+}
+
+.choose-your-path .blur-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.choose-your-path .blur-wrapper-bottom {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
     overflow: hidden;
 }
 
@@ -249,7 +267,8 @@
     background-color: #0F0B1E;
     position: relative;
     z-index: 1;
-    overflow: hidden;
+    margin-top: 100px;
+    /* overflow: hidden; */
 }
 
 .blur-bottomcenter {
@@ -301,6 +320,26 @@
     text-align: center;
     gap: 0px;
     flex: 1;
+    position: relative;
+}
+
+.choose-your-path img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+
+}
+
+.choose-your-path .img1 {
+    top: -200px;
+    width: 70%;
+}
+
+.choose-your-path .img2 {
+    top: -180px;
+    width: 80%;
+
 }
 
 
