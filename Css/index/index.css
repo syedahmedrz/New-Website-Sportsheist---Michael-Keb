@@ -338,11 +338,22 @@
     padding: 50px;
     position: relative;
     z-index: 1;
-    overflow: hidden;
+    /* overflow: hidden; */
+    margin-top: 100px;
 }
 
 .how-it-works .image {
     grid-area: image;
+    position: relative;
+}
+
+.how-it-works .image img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -150px;
 }
 
 .how-it-works .card1 {

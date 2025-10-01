@@ -147,15 +147,24 @@
 /* !How it works */
 .how-it-works .grid {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
     grid-template-areas:
         "image"
         "card1"
         "card2"
         "card3"
         "card4";
-    gap: 20px;
+    gap: 50px;
 }
+
+.how-it-works .image {
+    position: relative;
+}
+
+.how-it-works .image img {
+    width: 200px;
+}
+
 
 .how-it-works .card1,
 .how-it-works .card2,

@@ -81,12 +81,21 @@
 .how-it-works .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
     grid-template-areas:
         "image image"
         "card1 card2"
         "card3 card4";
     gap: 50px;
+}
+
+.how-it-works .image {
+    position: relative;
+    height: 150px;;
+}
+
+.how-it-works .image img {
+    width: 300px;
 }
 
 /* ! Get Started */
