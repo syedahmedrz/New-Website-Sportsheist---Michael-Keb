@@ -408,6 +408,141 @@
     max-width: 300px;
 }
 
+/* !Become an influencer */
+.become-aninfl-section {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.become-aninfl-section .con-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
+        linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
+    border-radius: 12px;
+    /* Example for a highly rounded border */
+    border: 1.4px solid transparent;
+    /* padding: 50px; */
+    position: relative;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.become-aninfl-section .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.become-aninfl-section .getstr-left,
+.getstr-right {
+    flex: 1;
+}
+
+.become-aninfl-section .getstr-left {
+    position: relative;
+}
+
+.become-aninfl-section img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    max-width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.become-aninfl-section .title {
+    font-size: 50px;
+}
+
+.become-aninfl-section .getstr-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    width: 100%;
+    /* margin-top: 200px; */
+}
+
+.become-aninfl-section .getstr-features {
+    width: 100%;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+}
+
+.become-aninfl-section .getstr-features .wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.become-aninfl-section .getstr-features .card {
+   
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+    width: 100%;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.become-aninfl-section .getstr-features .card p {
+    font-family: "Poppins", sans-serif;
+}
+
+.become-aninfl-section .getstr-features .card p:nth-child(1) {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.become-aninfl-section button {
+    min-width: 300px;
+}
+
+.become-aninfl-section .blur-bottomleft {
+   position: absolute;
+    width: 70%;
+    height: 100px;
+    background: #542BE2;
+    filter: blur(60px);
+    bottom: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -2;
+}
+
+.become-aninfl-section .blur-center {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+}
+
+
+.become-aninfl-section .btn-primary {
+    width: 400px !important;
+    background-color: #DFAA11 !important;
+    margin-top: 20px;
+}
+
+
+
 /* !Be More Than a Spectator. Be a Decision-Maker! */
 .be-more-than-a-spectator-des-section {
     background-color: #0F0B1E;

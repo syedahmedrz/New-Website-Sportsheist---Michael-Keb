@@ -108,6 +108,49 @@
     gap: 20px;
 }
 
+/* ! Become an influencern */
+/* .become-aninfl-section .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+} */
+
+.become-aninfl-section button {
+    width: 100%;
+}
+
+.become-aninfl-section .getstr-features {
+    align-items: center;
+}
+
+.become-aninfl-section .getstr-features .card {
+    /* padding: 20px 20px; */
+    align-items: center;
+    text-align: center;
+}
+
+.become-aninfl-section .Download-btn {
+    display: flex;
+    gap: 10px;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.become-aninfl-section .Download-btn a {
+    flex: 1;
+    width: 100%;
+}
+
+.become-aninfl-section .btn-primary {
+    width: 100% !important;
+}
+
+.become-aninfl-section .getstr-features .wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
 .footer .footer-login-1 {
     display: none;
 }
