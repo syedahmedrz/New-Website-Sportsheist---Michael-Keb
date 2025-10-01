@@ -139,13 +139,10 @@
     border-radius: 12px;
     /* Example for a highly rounded border */
     border: 1.4px solid transparent;
-
-
     gap: 20px;
     background-color: #0F0B1E;
     position: relative;
     z-index: 1;
-    overflow: hidden;
     margin-top: 20px;
     min-height: 300px;
     grid-template-columns: repeat(2, 1fr);
@@ -156,10 +153,83 @@
     flex: 1;
 }
 
-.why-sportsheist .card-left {
+
+/*  */
+.why-sportsheist .card-left1 {
     height: 100%;
     width: 100%;
-    background-color: red;
+    position: relative;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+.why-sportsheist .card-left1 .cls {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.why-sportsheist .card-left1 .card-left-sec1 {
+    overflow: hidden;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+/*  */
+.why-sportsheist .card-left1 img {
+    max-width: 300px;
+    position: absolute;
+    bottom: 0px;
+}
+
+/*  */
+.why-sportsheist .card-right2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.why-sportsheist .card-right2 .cls {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.why-sportsheist .card-right2 .card-left-sec1 {
+    overflow: hidden;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.why-sportsheist .card-right2 img {
+    max-width: 500px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.why-sportsheist .card-right2 .card-left-sec2 img {
+    max-width: 260px;
+    margin-right: 50px;
+}
+
+
+
+.why-sportsheist .card-right1, .card-left2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.why-sportsheist .card-right1 {
+    padding-right: 50px;
+}
+
+.why-sportsheist .card-left2 {
+    padding-left: 50px;
 }
 
 .why-sportsheist .blur-rightmiddle {
