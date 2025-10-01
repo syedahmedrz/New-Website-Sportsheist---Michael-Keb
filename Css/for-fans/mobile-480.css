@@ -43,7 +43,7 @@
     padding-left: 20px;
 }
 
-.nav-links .nav-links-login{
+.nav-links .nav-links-login {
     display: block;
 }
 
@@ -59,114 +59,6 @@
 
 .hero-text p {
     font-size: 15px !important;
-}
-
-/* !Get Involved. instantly. */
-.get-involved-section h1 {
-    text-align: center;
-}
-
-.get-involved-section .card-row {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-}
-
-.get-involved-section .card {
-    flex-direction: column;
-    padding: 20px;
-}
-
-.get-involved-section .card p:nth-child(1) {
-    font-size: 28px !important;
-}
-
-/* ! Your Voice Matters  */
-.your-voice-section .grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-        "image"
-        "card1"
-        "card2"
-        "card3"
-        "card4";
-    gap: 20px;
-}
-
-.your-voice-section .card1,
-.your-voice-section .card2,
-.your-voice-section .card3,
-.your-voice-section .card4 {
-    text-align: center;
-}
-
-/* !Virtual Fan, Looker Room */
-.virtual-fan-section .cards .container {
-    flex-direction: column;
-    gap: 0px;
-    padding: 0px 0px;
-}
-
-.virtual-fan-section h1 {
-    font-size: 40px;
-}
-
-.virtual-fan-section .vr {
-    display: none;
-}
-
-.virtual-fan-section .cards .card1,
-.virtual-fan-section .cards .card2 {
-    width: 100%;
-    padding: 50px 50px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
-
-.virtual-fan-section .blur-bottomcenter {
-    display: none;
-}
-
-.virtual-fan-section .cards .card1 .blur-bottomcenter1 {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background: #542BE2;
-    filter: blur(100px);
-    bottom: -100px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-}
-
-.virtual-fan-section .cards .card2 .blur-bottomcenter2 {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background: #DFAA11;
-    filter: blur(100px);
-    bottom: -100px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-}
-
-/* !Fair & Secure Participation */
-.fair-secure-section .container {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-}
-
-.fair-secure-section button {
-    width: 100%;
-}
-
-.fair-secure-section .getstr-features .card {
-    padding: 20px 0px;
 }
 
 
