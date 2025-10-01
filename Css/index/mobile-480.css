@@ -150,6 +150,7 @@
 .how-were-changing-the-game .card3,
 .how-were-changing-the-game .card4 {
     text-align: center;
+    align-items: center;
 }
 
 /* !Choose your path */

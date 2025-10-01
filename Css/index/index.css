@@ -278,18 +278,30 @@
 }
 
 .how-were-changing-the-game .card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     grid-area: card1;
 }
 
 .how-were-changing-the-game .card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     grid-area: card2;
 }
 
 .how-were-changing-the-game .card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     grid-area: card3;
 }
 
 .how-were-changing-the-game .card4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     grid-area: card4;
 }
 
