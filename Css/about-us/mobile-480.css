@@ -76,6 +76,25 @@
 }
 
 /* ! What We Do at DSC Labs: */
+.what-we-do-at-dsc-labs .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "image"
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+    gap: 50px;
+}
+
+.what-we-do-at-dsc-labs .card1,
+.what-we-do-at-dsc-labs .card2,
+.what-we-do-at-dsc-labs .card3,
+.what-we-do-at-dsc-labs .card4 {
+    text-align: center;
+    align-items: center;
+}
 
 /* ! Why Sports Heist? */
 

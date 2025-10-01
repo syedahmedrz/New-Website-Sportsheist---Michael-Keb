@@ -126,6 +126,9 @@
     width: 100%;
     margin-top: 0px !important;
     height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-image: url('../../Assets/Images/about-us/what-is-sports-heist.png');
 }
 
@@ -175,6 +178,81 @@
 }
 
 /* ! What We Do at DSC Labs: */
+.what-we-do-at-dsc-labs {
+    z-index: 1;
+    position: relative;
+}
+
+.what-we-do-at-dsc-labs>div h1,
+.what-we-do-at-dsc-labs>div h2,
+.what-we-do-at-dsc-labs>div h3,
+.what-we-do-at-dsc-labs>div p {
+    font-family: "Poppins", sans-serif;
+}
+
+.what-we-do-at-dsc-labs .title {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.what-we-do-at-dsc-labs .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 01fr 1fr;
+    grid-template-areas:
+        "card1 image card3"
+        "card2 image card4";
+    gap: 50px;
+}
+
+.what-we-do-at-dsc-labs .image {
+    grid-area: image;
+}
+
+.what-we-do-at-dsc-labs .card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card1;
+}
+
+.what-we-do-at-dsc-labs .card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card2;
+}
+
+.what-we-do-at-dsc-labs .card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card3;
+}
+
+.what-we-do-at-dsc-labs .card4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card4;
+}
+
+.what-we-do-at-dsc-labs .blur-center {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.what-we-do-at-dsc-labs img {
+    width: 100%;
+    height: auto;
+}
 
 /* ! Why Sports Heist? */
 

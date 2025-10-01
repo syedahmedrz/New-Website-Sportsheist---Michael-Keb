@@ -69,6 +69,18 @@
 /* ! ABOUT DIGITAL SPORTS CLUBS LABS */
 
 /* ! What We Do at DSC Labs: */
+.what-we-do-at-dsc-labs .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "image card1"
+        "image card2"
+        "image card3"
+        "image card4";
+    gap: 50px;
+}
+
 
 /* ! Why Sports Heist? */
 
