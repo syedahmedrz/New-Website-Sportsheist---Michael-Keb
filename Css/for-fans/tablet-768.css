@@ -77,6 +77,30 @@
     gap: 50px;
 }
 
+/* !Virtual local room */
+/* .virtual-local-room img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+
+} */
+
+.virtual-local-room .cards .card1 {
+    /* padding-bottom: 100px; */
+}
+
+.virtual-local-room .img1 {
+    top: -200px;
+    width: 70%;
+}
+
+.virtual-local-room .img2 {
+    top: -120px;
+    width: 80%;
+
+}
+
 .footer .footer-login-1 {
     display: none;
 }
