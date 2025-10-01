@@ -254,7 +254,7 @@
     height: 300px;
     background: #542BE2;
     filter: blur(100px);
-    top: 250px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     z-index: -5;
