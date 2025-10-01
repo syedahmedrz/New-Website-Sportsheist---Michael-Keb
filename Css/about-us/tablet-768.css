@@ -83,6 +83,28 @@
 
 
 /* ! Why Sports Heist? */
+/* .choose-your-path img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+
+} */
+
+.why-sportsheist .cards .card1 {
+    /* padding-bottom: 100px; */
+}
+
+.why-sportsheist .img1 {
+    top: -100px;
+    width: 70%;
+}
+
+.why-sportsheist .img2 {
+    top: -60px;
+    width: 80%;
+
+}
 
 /* ! Join the Sports Revolution */
 

@@ -255,6 +255,134 @@
 }
 
 /* ! Why Sports Heist? */
+.why-sportsheist {
+    position: relative;
+    z-index: 1;
+    /* overflow: hidden; */
+}
+
+.why-sportsheist .blur-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.why-sportsheist .blur-wrapper-bottom {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.why-sportsheist .title:nth-child(1),
+.sub-title {
+    text-align: center;
+}
+
+.why-sportsheist .cards {
+    /* background-color: #0F0B1E; */
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
+    /* overflow: hidden; */
+}
+
+.blur-bottomcenter {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #DFAA11;
+    filter: blur(100px);
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.blur-bottomcenter-main {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -5;
+}
+
+.why-sportsheist .cards .container {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.why-sportsheist .vr {
+    width: 2px;
+    height: 200px;
+    background-color: white;
+}
+
+.why-sportsheist .cards .card1,
+.why-sportsheist .cards .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+    flex: 1;
+    position: relative;
+    background-color: #0F0B1E;
+    z-index: -1;
+    padding: 20px;
+    border-radius: 5px;
+      background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
+        linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
+    border-radius: 12px;
+    /* Example for a highly rounded border */
+    border: 1.4px solid transparent;
+    min-height: 200px;
+    max-height: 270px;
+}
+
+.why-sportsheist .cards .card1 h1 {
+    font-size: 40px;
+    color: white !important;
+
+}
+.why-sportsheist .cards .card2 h1 {
+    font-size: 40px;
+    color: white !important;
+}
+
+.why-sportsheist img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+
+}
+
+.why-sportsheist .img1 {
+    top: -140px;
+    width: 80%;
+}
+
+.why-sportsheist .img2 {
+    top: -130px;
+    width: 90%;
+
+}
 
 /* ! Join the Sports Revolution */
 

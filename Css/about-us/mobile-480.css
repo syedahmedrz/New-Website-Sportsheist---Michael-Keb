@@ -97,6 +97,77 @@
 }
 
 /* ! Why Sports Heist? */
+.why-sportsheist .cards .container {
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px 0px;
+}
+
+.why-sportsheist .vr {
+    display: none;
+}
+
+.why-sportsheist .cards .card1,
+.why-sportsheist .cards .card2 {
+    width: 100%;
+    padding: 50px 50px;
+    position: relative;
+    z-index: 1;
+    /* overflow: hidden; */
+    border: none;
+    border-radius: 0px;
+}
+
+.why-sportsheist .blur-bottomcenter {
+    display: none;
+}
+
+.why-sportsheist .cards .card1 .blur-bottomcenter1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #542BE2;
+    filter: blur(100px);
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.why-sportsheist .cards .card2 .blur-bottomcenter2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #DFAA11;
+    filter: blur(100px);
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+/* .why-sportsheist img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+
+} */
+
+.why-sportsheist .cards .card1 {
+    padding-bottom: 100px;
+}
+
+.why-sportsheist .img1 {
+    top: -100px;
+    max-width: 200px;
+}
+
+.why-sportsheist .img2 {
+    top: -50px;
+    max-width: 230px;
+
+}
 
 /* ! Join the Sports Revolution */
 
