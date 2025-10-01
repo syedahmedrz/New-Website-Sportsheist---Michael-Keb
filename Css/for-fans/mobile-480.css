@@ -199,6 +199,19 @@
     width: 100%;
 }
 
+.be-more-than-a-spectator-des-section .Download-btn {
+    display: flex;
+    gap: 10px;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.be-more-than-a-spectator-des-section .Download-btn a {
+    flex: 1;
+    width: 100%;
+}
+
 
 /* !Footer */
 .footer .container {

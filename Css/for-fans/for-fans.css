@@ -465,6 +465,22 @@
     width: 300px;
 }
 
+.be-more-than-a-spectator-des-section .Download-btn {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.be-more-than-a-spectator-des-section .Download-btn a {
+    display: block;
+    max-width: 150px !important;
+}
+
+.be-more-than-a-spectator-des-section .Download-btn a img {
+    width: 100%;
+}
+
 /* !Footer */
 .footer .container {
     display: flex;
