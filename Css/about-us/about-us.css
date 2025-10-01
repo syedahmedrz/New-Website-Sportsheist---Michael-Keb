@@ -124,6 +124,7 @@
 /* ! What is Sports Heist? */
 .what-is-sports-heist {
     width: 100%;
+    margin-top: 0px !important;
     height: fit-content;
     background-image: url('../../Assets/Images/about-us/what-is-sports-heist.png');
 }
@@ -137,6 +138,41 @@
 }
 
 /* ! ABOUT DIGITAL SPORTS CLUBS LABS */
+.about-digital-sports-club-labs .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-digital-sports-club-labs .container .left,
+.right {
+    flex: 1;
+}
+
+.about-digital-sports-club-labs .left {
+    position: relative;
+    z-index: 1;
+}
+
+.about-digital-sports-club-labs .left img {
+    width: 100%;
+}
+
+.about-digital-sports-club-labs .right h1, p{
+    margin-bottom: 20px !important;
+}
+
+.about-digital-sports-club-labs .blur-center {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
 
 /* ! What We Do at DSC Labs: */
 

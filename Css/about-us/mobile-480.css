@@ -67,6 +67,13 @@
 }
 
 /* ! ABOUT DIGITAL SPORTS CLUBS LABS */
+.about-digital-sports-club-labs .container {
+    flex-direction: column-reverse;
+}
+
+.about-digital-sports-club-labs .right {
+    text-align: center;
+}
 
 /* ! What We Do at DSC Labs: */
 
