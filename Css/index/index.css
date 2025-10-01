@@ -127,7 +127,7 @@
 }
 
 .why-sportsheist .card {
-    display: flex;
+    display: grid;
     /* border-style: solid;
     border-image: linear-gradient(to right, darkblue, darkorchid) 1 border-box;
     border-radius: 12px !important;
@@ -140,7 +140,7 @@
     /* Example for a highly rounded border */
     border: 1.4px solid transparent;
 
-    padding: 50px;
+
     gap: 20px;
     background-color: #0F0B1E;
     position: relative;
@@ -148,12 +148,18 @@
     overflow: hidden;
     margin-top: 20px;
     min-height: 300px;
-    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .why-sportsheist .card-left,
 .card-right {
     flex: 1;
+}
+
+.why-sportsheist .card-left {
+    height: 100%;
+    width: 100%;
+    background-color: red;
 }
 
 .why-sportsheist .blur-rightmiddle {

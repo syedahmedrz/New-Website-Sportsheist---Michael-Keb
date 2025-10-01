@@ -68,7 +68,7 @@
 
 
 .why-sportsheist .card {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     padding: 20px;
 }
 
