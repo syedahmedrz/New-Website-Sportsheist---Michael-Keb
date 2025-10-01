@@ -714,6 +714,18 @@
     height: auto;
 }
 
+.get-started .Download-btn {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.get-started .Download-btn a {
+    display: block;
+    max-width: 150px;
+}
+
 /* !Ready to Take Your Club to the Next Level? */
 .ready-to-take-your-club {
     background-color: #0F0B1E;
