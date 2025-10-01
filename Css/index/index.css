@@ -551,6 +551,11 @@
     z-index: -1;
 }
 
+.get-started img {
+    width: 100%;
+    height: auto;
+}
+
 /* !Ready to Take Your Club to the Next Level? */
 .ready-to-take-your-club {
     background-color: #0F0B1E;
