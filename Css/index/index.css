@@ -92,6 +92,11 @@
     flex: 1;
 }
 
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
 .hero-section .blur-topleft {
     position: absolute;
     width: 300px;
@@ -135,7 +140,6 @@
     /* Example for a highly rounded border */
     border: 1.4px solid transparent;
 
-    overflow: hidden;
     padding: 50px;
     gap: 20px;
     background-color: #0F0B1E;
