@@ -164,7 +164,9 @@ left: 50%;
 
  /* !Form */
  .formm {
-        position: relative;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
     z-index: 1;
  }
 
