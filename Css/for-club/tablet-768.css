@@ -1,0 +1,134 @@
+/* !Global */
+.title {
+    font-size: 50px;
+}
+
+.navbar {
+    border: 0.5px solid rgba(255, 255, 255, 0.395);
+    border-radius: 12px;
+    height: 70px;
+    padding: 0 15px;
+}
+
+.hambarger-menu {
+    display: flex;
+}
+
+
+.navbar 
+.nav-buttons {
+    display: none;
+}
+
+
+.navbar .nav-links {
+    position: fixed;
+    top: 150px;
+    right: 20px;
+    min-width: 230px;
+    height: fit-content;
+    background-color: #0F0B1E;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+    display: none;
+    z-index: 100;
+}
+
+.nav-links li {
+    width: 100%;
+}
+
+.nav-links li a {
+    width: 100%;
+    justify-content: left;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.nav-links .nav-links-login{
+    display: block;
+}
+
+.hero-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.hero-text {
+    align-items: center;
+}
+
+.hero-text p {
+    font-size: 15px !important;
+}
+
+/* ! How we’re changing the game Section */
+.how-were-changing-the-game .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "image card1"
+        "image card2"
+        "image card3"
+        "image card4";
+    gap: 50px;
+}
+
+/* ! Choose your path */
+/* .choose-your-path img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+
+} */
+
+.choose-your-path .cards .card1 {
+    /* padding-bottom: 100px; */
+}
+
+.choose-your-path .img1 {
+    top: -200px;
+    width: 70%;
+}
+
+.choose-your-path .img2 {
+    top: -120px;
+    width: 80%;
+
+}
+
+/* !How it works */
+.how-it-works .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+        "image image"
+        "card1 card2"
+        "card3 card4";
+    gap: 50px;
+}
+
+.how-it-works .image {
+    position: relative;
+    height: 150px;;
+}
+
+.how-it-works .image img {
+    width: 300px;
+}
+
+/* ! Get Started */
+.get-started .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.footer .footer-login-1 {
+    display: none;
+}
