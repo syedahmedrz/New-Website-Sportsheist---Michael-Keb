@@ -62,6 +62,15 @@
 }
 
  /* !Ready to Transform */
+  .img-wrapper {
+    margin-bottom: -100px;
+ }
+
+ .read-to-transform img {
+    max-width: 250px;
+    position: relative;
+    z-index: -1;
+ }
 
  /* !Form */
 

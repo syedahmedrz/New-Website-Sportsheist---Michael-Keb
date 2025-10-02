@@ -121,7 +121,42 @@
     /* opacity: 0.9; */
 }
 
+/* blur */
+.blur-topcenter {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #542BE2;
+    filter: blur(100px);
+top:0px;
+left: 50%;
+    transform: translatex(-50%);
+    z-index: -1;
+}
+
  /* !Ready to Transform */
+ .read-to-transform .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 0px 50px;
+ }
+
+ .img-wrapper {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: -200px;
+    background-image: linear-gradient(to top, #20083D,  #fff0);
+ }
+
+ .read-to-transform img {
+    max-width: 600px;
+    position: relative;
+    z-index: -1;
+ }
+
 
  /* !Form */
 
@@ -145,7 +180,7 @@
     text-decoration: none;
     color: white;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 3005
 }
 
 .footer .credits {
