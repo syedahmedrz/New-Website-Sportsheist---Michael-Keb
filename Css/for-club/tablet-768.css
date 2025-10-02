@@ -63,72 +63,35 @@
 .hero-text p {
     font-size: 15px !important;
 }
+/* !CHALLENGEs */
 
-/* ! How we’re changing the game Section */
-.how-were-changing-the-game .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-        "image card1"
-        "image card2"
-        "image card3"
-        "image card4";
-    gap: 50px;
-}
+/* !Harness fan energy to strengthen your club */
 
-/* ! Choose your path */
-/* .choose-your-path img {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
+/* !SPORTS HEIST ENABLES CLUBS TO */
 
-} */
+/* !Monetise Fan Engagement */
 
-.choose-your-path .cards .card1 {
-    /* padding-bottom: 100px; */
-}
+/* !How it works: */
 
-.choose-your-path .img1 {
-    top: -200px;
-    width: 70%;
-}
+/* !More engagement = More revenue */
 
-.choose-your-path .img2 {
-    top: -120px;
-    width: 80%;
+/* !Leverage the Power of Data */
 
-}
+/* !WHAT YOU LEARN */
 
-/* !How it works */
-.how-it-works .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, auto);
-    grid-template-areas:
-        "image image"
-        "card1 card2"
-        "card3 card4";
-    gap: 50px;
-}
+/* !BOOST CLUB MEMBERSHIPS. INCREASE FAN COMMITMENT. */
 
-.how-it-works .image {
-    position: relative;
-    height: 150px;;
-}
+/* !SIMPLIFY Fan Management */
 
-.how-it-works .image img {
-    width: 300px;
-}
+/* !How it works: */
 
-/* ! Get Started */
-.get-started .container {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-}
+/* !CLUBS set the rules. */
 
+/* !Protecting clubs from vote manipulation and fraudulent memberships. */
+
+/* !Join Sports Heist At No Cost to Your Club */
+
+/* !footer */
 .footer .footer-login-1 {
     display: none;
 }

@@ -60,231 +60,33 @@
 .hero-text p {
     font-size: 15px !important;
 }
+/* !CHALLENGEs */
 
-/* !WHY SPORTS HEIST? */
-.why-sportsheist .card2 .card-left {
-    order: 2;
-}
+/* !Harness fan energy to strengthen your club */
 
-.why-sportsheist .card2 .card-right {
-    order: 1;
-}
+/* !SPORTS HEIST ENABLES CLUBS TO */
 
+/* !Monetise Fan Engagement */
 
-.why-sportsheist h1 {
-    text-align: center;
-}
+/* !How it works: */
 
+/* !More engagement = More revenue */
 
-.why-sportsheist .card {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    padding: 0px !important;
-}
+/* !Leverage the Power of Data */
 
-.why-sportsheist .card p:nth-child(1) {
-    font-size: 28px !important;
-}
+/* !WHAT YOU LEARN */
 
-.why-sportsheist .card-right1 {
-    padding-right: 0px;
-}
+/* !BOOST CLUB MEMBERSHIPS. INCREASE FAN COMMITMENT. */
 
-.why-sportsheist .card-left2 {
-    padding-left: 0px;
-}
+/* !SIMPLIFY Fan Management */
 
+/* !How it works: */
 
-.why-sportsheist .card-left1 .cls {
-    display: flex;
-    justify-content: center;
-}
+/* !CLUBS set the rules. */
 
-.why-sportsheist .card-left1 img {
-    max-width: 200px;
-    position: absolute;
-    bottom: 0px;
-}
+/* !Protecting clubs from vote manipulation and fraudulent memberships. */
 
-/*  */
-.why-sportsheist .card-right2 .cls {
-    display: flex;
-    justify-content: center;
-}
-
-.why-sportsheist .card-right2 img {
-    width: 100%;
-    position: static;
-}
-
-.why-sportsheist .card-right2 .card-left-sec2 img {
-    max-width: 140px;
-    margin-top: -50px;
-}
-
-.why-sportsheist .card1 .card-right {
-    padding: 20px;
-
-}
-
-.why-sportsheist .card2 .card-left {
-    padding: 20px;
-
-}
-
-/* ! How we’re changing the game Section */
-.how-were-changing-the-game .grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas:
-        "image"
-        "card1"
-        "card2"
-        "card3"
-        "card4";
-    gap: 50px;
-}
-
-.how-were-changing-the-game .card1,
-.how-were-changing-the-game .card2,
-.how-were-changing-the-game .card3,
-.how-were-changing-the-game .card4 {
-    text-align: center;
-    align-items: center;
-}
-
-/* !Choose your path */
-.choose-your-path .cards .container {
-    flex-direction: column;
-    gap: 0px;
-    padding: 0px 0px;
-}
-
-.choose-your-path .vr {
-    display: none;
-}
-
-.choose-your-path .cards .card1,
-.choose-your-path .cards .card2 {
-    width: 100%;
-    padding: 50px 50px;
-    position: relative;
-    z-index: 1;
-    /* overflow: hidden; */
-}
-
-.choose-your-path .blur-bottomcenter {
-    display: none;
-}
-
-.choose-your-path .cards .card1 .blur-bottomcenter1 {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background: #542BE2;
-    filter: blur(100px);
-    bottom: -100px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-}
-
-.choose-your-path .cards .card2 .blur-bottomcenter2 {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background: #DFAA11;
-    filter: blur(100px);
-    bottom: -100px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-}
-
-/* .choose-your-path img {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-
-} */
-
-.choose-your-path .cards .card1 {
-    padding-bottom: 100px;
-}
-
-.choose-your-path .img1 {
-    top: -100px;
-    max-width: 200px;
-}
-
-.choose-your-path .img2 {
-    top: -50px;
-    max-width: 230px;
-
-}
-
-/* !How it works */
-.how-it-works .grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, auto);
-    grid-template-areas:
-        "image"
-        "card1"
-        "card2"
-        "card3"
-        "card4";
-    gap: 50px;
-}
-
-.how-it-works .image {
-    position: relative;
-}
-
-.how-it-works .image img {
-    width: 200px;
-}
-
-
-.how-it-works .card1,
-.how-it-works .card2,
-.how-it-works .card3,
-.how-it-works .card4 {
-    text-align: center;
-}
-
-/* ! Get Started */
-.get-started .container {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-}
-
-.get-started button {
-    width: 100%;
-}
-
-.get-started .getstr-features .card {
-    padding: 20px 0px;
-}
-
-.get-started .Download-btn {
-    display: flex;
-    gap: 10px;
-    max-width: 100%;
-    width: 100%;
-    justify-content: center;
-}
-
-.get-started .Download-btn a {
-    flex: 1;
-    width: 100%;
-}
-
-/* !Ready to Take Your Club to the Next Level? */
-.ready-to-take-your-club .ready-to-take-your-club-img {
-    width: 90%;
-}
+/* !Join Sports Heist At No Cost to Your Club */
 
 /* !Footer */
 .footer .container {
