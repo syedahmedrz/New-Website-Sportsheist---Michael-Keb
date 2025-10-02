@@ -54,8 +54,137 @@
     </div>
 
     <!-- !Ready to Transform -->
+    <section class="read-to-transform">
+        <div class="container">
+            <div class="img-wrapper">
+
+                <img class="ready-to-take-your-club-img"
+                    src="Assets/Images/express-your-interest/Welcome to sports heist!.png" alt="">
+            </div>
+            <h1 class="title">Welcome to sports heist!</h1>
+            <p class="sub-title" style="font-family: Poppins; max-width: 600px; font-weight: bold;">
+                You are approved to be a Sports Heist PARTNER CLUB! Now, it’s time to set up your club’s official
+                profile and unlock all the powerful tools Sports Heist has to offer.
+            </p>
+            <p class="sub-title" style="font-family: Poppins; max-width: 600px;">
+                Once you complete your profile below and create your club account, you’ll gain access to your Club
+                Dashboard, where you can manage fan engagement, governance participation, and unlock new revenue
+                opportunities.
+            </p>
+        </div>
+    </section>
 
     <!-- !Form -->
+    <section class="club-section">
+        <div class="club-glow"></div>
+
+        <div class="club-wrapper">
+            <div class="club-header">
+                <h2>Create your club account</h2>
+            </div>
+
+            <form class="club-form">
+                <div class="form-group">
+                    <!-- Club Name -->
+                    <div class="field">
+                        <label for="club-name">Club Name / Username</label>
+                        <p>This will be your club’s official identifier on the platform and visible to every fan
+                            interaction.</p>
+                        <input id="club-name" name="club-name" type="text" value="Collingwood Magpies">
+                    </div>
+
+                    <!-- Email -->
+                    <div class="field">
+                        <label for="club-email">Official Club Email</label>
+                        <p>We’ll use this address for login, security alerts, and partnership communication with your
+                            team.</p>
+                        <input id="club-email" name="club-email" type="email" value="admin@collingwoodfc.com">
+                    </div>
+
+                    <!-- Password -->
+                    <div class="field">
+                        <label for="club-password">Set your password</label>
+                        <input id="club-password" name="club-password" type="password"
+                            placeholder="Create a secure password">
+                        <ul class="password-rules">
+                            <li><span></span> At least 8 characters</li>
+                            <li><span></span> One uppercase letter</li>
+                            <li><span></span> One number</li>
+                        </ul>
+                    </div>
+
+                    <!-- Confirm Password -->
+                    <div class="field">
+                        <label for="club-password-confirm">Confirm your password</label>
+                        <input id="club-password-confirm" name="club-password-confirm" type="password"
+                            placeholder="Re-enter your password">
+                    </div>
+                </div>
+
+                <!-- Uploads -->
+                <div class="upload-section">
+                    <div class="upload-field circle">
+                        <label for="club-logo">Upload Your Profile Picture</label>
+                        <p>This will be the club's profile picture. Please upload JPEG/PNG at least 500x500px.</p>
+
+                        <div class="upload-row">
+                            <div class="upload-box">
+                                <img id="preview-logo" alt="Preview" class="preview hidden" />
+                                <div class="placeholder">📷</div>
+                                <input type="file" id="club-logo" accept="image/*"
+                                    onchange="previewImage(event,'preview-logo')" />
+                            </div>
+                            <button type="button" onclick="document.getElementById('club-logo').click()">Upload</button>
+                        </div>
+                    </div>
+
+                    <div class="upload-field rectangle">
+                        <label for="club-header">Upload Your Header Photo</label>
+                        <p>Please upload JPEG/PNG at least 1170x780px.</p>
+
+                        <div class="upload-row">
+                            <div class="upload-box">
+                                <img id="preview-header" alt="Preview" class="preview hidden" />
+                                <div class="placeholder">📷</div>
+                                <input type="file" id="club-header" accept="image/*"
+                                    onchange="previewImage(event,'preview-header')" />
+                            </div>
+                            <button type="button"
+                                onclick="document.getElementById('club-header').click()">Upload</button>
+                        </div>
+                    </div>
+
+                    <div class="upload-field rectangle-wide">
+                        <label for="club-banner">Upload Your Banner Photo</label>
+                        <p>Please upload JPEG/PNG at least 1844x663px.</p>
+
+                        <div class="upload-row">
+                            <div class="upload-box">
+                                <img id="preview-banner" alt="Preview" class="preview hidden" />
+                                <div class="placeholder">📷</div>
+                                <input type="file" id="club-banner" accept="image/*"
+                                    onchange="previewImage(event,'preview-banner')" />
+                            </div>
+                            <button type="button"
+                                onclick="document.getElementById('club-banner').click()">Upload</button>
+                        </div>
+                    </div>
+
+
+                    <div class="info-box">
+                        <p>💡 Upload multiple options so our team can showcase your club with the strongest visual
+                            footprint across the Sports Heist platform.</p>
+                    </div>
+                </div>
+
+                <!-- Button -->
+                <div class="btn-wrap">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
 
     <!-- ! Footer Section -->
     <footer class="footer">

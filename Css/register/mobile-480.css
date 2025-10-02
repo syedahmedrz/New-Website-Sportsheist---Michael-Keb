@@ -61,9 +61,18 @@
     font-size: 15px !important;
 }
 
- /* !Ready to Transform */
+/* !Ready to Transform */
+.img-wrapper {
+    margin-bottom: -100px;
+}
 
- /* !Form */
+.read-to-transform img {
+    max-width: 250px;
+    position: relative;
+    z-index: -1;
+}
+
+/* !Form */
 
 /* !Footer */
 .footer .container {
