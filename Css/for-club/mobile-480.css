@@ -61,6 +61,44 @@
     font-size: 15px !important;
 }
 /* !CHALLENGEs */
+.challenges {
+    margin-top: 150px;
+}
+
+
+.challenges .card-container {
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.challenges .title-bar img {
+    max-width: 210px;
+}
+
+.challenges .title-bar h1 {
+    font-size: 50px !important;
+}
+
+/* banner */
+.challenges .banner {
+    flex-direction: column;
+}
+
+.challenges .banner .left img {
+    width: 210px;
+}
+
+.challenges .banner .right {
+    padding-top: 0px;
+}
+
+.challenges .banner .btitle {
+    font-size: 40px;
+}
+
+.challenges .banner .btn-primary {
+    width: 100% !important;
+}
 
 /* !Harness fan energy to strengthen your club */
 

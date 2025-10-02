@@ -189,7 +189,8 @@
     border-radius: 12px;
     /* Example for a highly rounded border */
     border: 1.4px solid transparent;
-    min-height: 340px;
+    min-height: 390px;
+    max-height: 390px;
     position: relative;
     z-index: 1;
     overflow: hidden;
