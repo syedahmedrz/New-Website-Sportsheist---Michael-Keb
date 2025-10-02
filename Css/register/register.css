@@ -152,14 +152,8 @@
   position: relative;
   margin-top: 4rem;
   width: 100%;
-  max-width: 856px;
-  margin-inline: auto;
-  padding: 3rem 1.5rem;
-  border: 2px solid #AA95F0;
-  background: rgba(15, 11, 30, 0.95);
-  border-radius: 24px;
-  box-shadow: 0 40px 160px rgba(14, 3, 32, 0.55);
-  backdrop-filter: blur(4px);
+  overflow: hidden;
+
 }
 
 .club-glow {
@@ -171,6 +165,7 @@
   height: 26rem;
   background: #542BE2;
   opacity: 0.6;
+  /* display: none; */
   border-radius: 50%;
   filter: blur(180px);
   pointer-events: none;
@@ -181,6 +176,15 @@
   display: flex;
   flex-direction: column;
   gap: 4rem;
+    max-width: 856px;
+  /* display: ; */
+  margin-inline: auto;
+  padding: 3rem 1.5rem;
+  border: 2px solid #AA95F0;
+  background: rgba(15, 11, 30, 0.95);
+  border-radius: 24px;
+  box-shadow: 0 40px 160px rgba(14, 3, 32, 0.55);
+  backdrop-filter: blur(4px);
 }
 
 .club-header h2 {
@@ -275,16 +279,24 @@ input:focus {
 .info-box {
   background: #1F3751;
   border: 1px solid #007AFF;
-  padding: 1rem;
+align-items: start;
+
   border-radius: 16px;
   font-size: 0.9rem;
     font-family: 'Poppins';
-  line-height: 1.5;
+  display: flex;
+  gap: 5px;
+  padding: 10px
+
 }
 
 .btn-wrap {
   display: flex;
   justify-content: center;
+}
+
+.btn-wrap p {
+    font-family: 'Poppins' !important;
 }
 
 .btn-wrap button {
@@ -298,7 +310,7 @@ input:focus {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  box-shadow: 0 12px 32px rgba(84, 43, 226, 0.45);
+  /* box-shadow: 0 12px 32px rgba(84, 43, 226, 0.45); */
   cursor: pointer;
   transition: 0.3s;
 }
