@@ -115,6 +115,13 @@
 }
 
 /* !Monetise Fan Engagement */
+.monetise-fan-engagments .container {
+    flex-direction: column-reverse;
+}
+
+.monetise-fan-engagments .right {
+    text-align: center;
+}
 
 /* !How it works: */
 

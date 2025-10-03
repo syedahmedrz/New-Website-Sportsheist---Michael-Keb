@@ -440,6 +440,48 @@ p {
 
 
 /* !Monetise Fan Engagement */
+.monetise-fan-engagments {
+    overflow: hidden;
+}
+
+.monetise-fan-engagments .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:  50px;
+    /* flex-direction: row-reverse; */
+}
+
+.monetise-fan-engagments .container .left,
+.right {
+    flex: 1;
+}
+
+.monetise-fan-engagments .left {
+    position: relative;
+    z-index: 1;
+}
+
+.monetise-fan-engagments .left img {
+    width: 100%;
+}
+
+.monetise-fan-engagments .right h1,
+p {
+    margin-bottom: 20px !important;
+}
+
+.monetise-fan-engagments .blur-center {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
 
 /* !How it works: */
 
