@@ -488,6 +488,118 @@ p {
 /* !More engagement = More revenue */
 
 /* !Leverage the Power of Data */
+.leverage-the-power-of-data {
+    z-index: 1;
+    position: relative;
+}
+
+.leverage-the-power-of-data>div h1,
+.leverage-the-power-of-data>div h2,
+.leverage-the-power-of-data>div h3,
+.leverage-the-power-of-data>div p {
+    font-family: "Poppins", sans-serif;
+}
+
+.leverage-the-power-of-data .title {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.leverage-the-power-of-data .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 01fr 1fr;
+    grid-template-areas:
+        "card1 image card3"
+        "card2 image card4";
+    gap: 50px;
+}
+
+.leverage-the-power-of-data .image {
+    grid-area: image;
+}
+
+.leverage-the-power-of-data .card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card1;
+    align-items: center;
+    text-align: center;
+}
+
+.leverage-the-power-of-data .card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card2;
+    align-items: center;
+    text-align: center;
+
+}
+
+.leverage-the-power-of-data .card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card3;
+    align-items: center;
+    text-align: center;
+
+}
+
+.leverage-the-power-of-data .card4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: card4;
+    align-items: center;
+    text-align: center;
+
+}
+
+.leverage-the-power-of-data .blur-center {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.leverage-the-power-of-data img {
+    width: 100%;
+    height: auto;
+}
+
+.leverage-the-power-of-data .bottom-text {
+    margin: 40px 0 20px;
+    font-size: 18px;
+    font-family: "poppins" !important;
+
+}
+
+.leverage-the-power-of-data .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #542BE2;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: "poppins" !important;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.leverage-the-power-of-data .bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;}
 
 /* !WHAT YOU LEARN */
 

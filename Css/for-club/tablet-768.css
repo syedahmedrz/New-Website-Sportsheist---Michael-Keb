@@ -76,6 +76,17 @@
 /* !More engagement = More revenue */
 
 /* !Leverage the Power of Data */
+.leverage-the-power-of-data .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "image card1"
+        "image card2"
+        "image card3"
+        "image card4";
+    gap: 50px;
+}
 
 /* !WHAT YOU LEARN */
 
