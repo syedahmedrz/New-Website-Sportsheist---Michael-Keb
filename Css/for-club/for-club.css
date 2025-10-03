@@ -306,6 +306,42 @@
 
 
 /* !Harness fan energy to strengthen your club */
+.harness-fan-energy-to-strengthen-your-club .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.harness-fan-energy-to-strengthen-your-club .container .left,
+.right {
+    flex: 1;
+}
+
+.harness-fan-energy-to-strengthen-your-club .left {
+    position: relative;
+    z-index: 1;
+}
+
+.harness-fan-energy-to-strengthen-your-club .left img {
+    width: 100%;
+}
+
+.harness-fan-energy-to-strengthen-your-club .right h1, p{
+    margin-bottom: 20px !important;
+}
+
+.harness-fan-energy-to-strengthen-your-club .blur-center {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #542BE2;
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
 
 /* !SPORTS HEIST ENABLES CLUBS TO */
 

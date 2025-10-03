@@ -101,6 +101,13 @@
 }
 
 /* !Harness fan energy to strengthen your club */
+.harness-fan-energy-to-strengthen-your-club .container {
+    flex-direction: column-reverse;
+}
+
+.harness-fan-energy-to-strengthen-your-club .right {
+    text-align: center;
+}
 
 /* !SPORTS HEIST ENABLES CLUBS TO */
 
