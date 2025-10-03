@@ -110,6 +110,9 @@
 }
 
 /* !SPORTS HEIST ENABLES CLUBS TO */
+.sports-heist-enable .cards {
+    flex-direction: column;
+}
 
 /* !Monetise Fan Engagement */
 

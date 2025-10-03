@@ -306,6 +306,10 @@
 
 
 /* !Harness fan energy to strengthen your club */
+.harness-fan-energy-to-strengthen-your-club {
+    overflow: hidden;
+}
+
 .harness-fan-energy-to-strengthen-your-club .container {
     display: flex;
     align-items: center;
@@ -327,7 +331,8 @@
     width: 100%;
 }
 
-.harness-fan-energy-to-strengthen-your-club .right h1, p{
+.harness-fan-energy-to-strengthen-your-club .right h1,
+p {
     margin-bottom: 20px !important;
 }
 
@@ -344,6 +349,95 @@
 }
 
 /* !SPORTS HEIST ENABLES CLUBS TO */
+.sports-heist-enable {
+    font-family: Arial, sans-serif;
+    color: white;
+    /* padding: 60px 20px; */
+    text-align: center;
+}
+
+.sports-heist-enable h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sports-heist-enable .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sports-heist-enable .card {
+    flex: 1;
+    /* max-width: 300px; */
+    background: radial-gradient(circle at top, rgba(170, 149, 240, 0.25), rgba(15, 11, 30, 0.9));
+    border: 2px solid #aa95f0;
+    border-radius: 12px;
+    padding: 30px 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
+        linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
+    border-radius: 12px;
+    /* Example for a highly rounded border */
+    border: 1.4px solid transparent;
+    position: relative;
+    overflow: hidden;
+    font-family: "poppins" !important;
+}
+
+.sports-heist-enable .icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 20px;
+    background: yellow;
+    /* Placeholder - replace with SVG */
+    border-radius: 50%;
+}
+
+.sports-heist-enable .card p {
+    font-size: 16px;
+    font-family: "poppins" !important;
+
+    line-height: 1.5;
+}
+
+.sports-heist-enable .bottom-text {
+    margin: 40px 0 20px;
+    font-size: 18px;
+    font-family: "poppins" !important;
+
+}
+
+.sports-heist-enable .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #542BE2;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: "poppins" !important;
+
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.sports-heist-enable .card .blur {
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    background: #532be280;
+    filter: blur(40px);
+    right: 0px;
+    top: -50px;
+    /* transform: translateX(-50%); */
+    z-index: -1;
+}
+
 
 /* !Monetise Fan Engagement */
 
