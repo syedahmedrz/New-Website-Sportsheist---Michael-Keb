@@ -151,6 +151,48 @@
 /* !WHAT YOU LEARN */
 
 /* !BOOST CLUB MEMBERSHIPS. INCREASE FAN COMMITMENT. */
+.boost-club-ms-inc-fan-com {
+    margin-top: 150px;
+}
+
+.boost-club-ms-inc-states-img {
+    top: -50px;
+}
+
+.boost-club-ms-inc-fan-com .card-container {
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.boost-club-ms-inc-fan-com .title-bar img {
+    max-width: 210px;
+    top: -20px;
+}
+
+.boost-club-ms-inc-fan-com .title-bar h1 {
+    font-size: 30px !important;
+}
+
+/* banner */
+.boost-club-ms-inc-fan-com .banner {
+    flex-direction: column;
+}
+
+.boost-club-ms-inc-fan-com .banner .left img {
+    width: 210px;
+}
+
+.boost-club-ms-inc-fan-com .banner .right {
+    padding-top: 0px;
+}
+
+.boost-club-ms-inc-fan-com .banner .btitle {
+    font-size: 40px;
+}
+
+.boost-club-ms-inc-fan-com .banner .btn-primary {
+    width: 100% !important;
+}
 
 /* !SIMPLIFY Fan Management */
 
