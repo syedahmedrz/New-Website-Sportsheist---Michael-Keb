@@ -933,14 +933,22 @@ p {
         text-align: center;
     }
 
+    .rules-section .wraper2 {
+        flex-direction: column;
+    }
+
+    .rules-section .wraper2 .rules-image {
+        margin-bottom: 50px;
+    }
+
     /* 
 .rules-image {
     min-width: 80% !important; 
 } */
 
-.rules-image h1{
-    font-size: 20px;
-}
+    .rules-image h1 {
+        font-size: 20px;
+    }
 
     .rules-content {
         padding: 0px;
@@ -952,22 +960,22 @@ p {
         margin-top: 10px;
     }
 
-.rules-list li {
-    text-align: left;
-    align-items: start;
-}
+    .rules-list li {
+        text-align: left;
+        align-items: start;
+    }
 
-.rules-list li svg{
-    min-width: 20px;
-}
+    .rules-list li svg {
+        min-width: 20px;
+    }
 
     .rules-content p {
         font-size: 10px
     }
 
-.rules-button {
-    font-size: 12px;
-}
+    .rules-button {
+        font-size: 12px;
+    }
 }
 
 /* !Protecting clubs from vote manipulation and fraudulent memberships. */
