@@ -292,6 +292,7 @@
 
 .get-started .getstr-features .card {
     padding: 20px 0px;
+    flex-direction: column;
 }
 
 .get-started .Download-btn {
