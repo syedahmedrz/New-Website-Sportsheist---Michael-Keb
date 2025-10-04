@@ -212,6 +212,14 @@
 /* !Protecting clubs from vote manipulation and fraudulent memberships. */
 
 /* !Join Sports Heist At No Cost to Your Club */
+.join-sports-heist-nocost .ready-to-take-your-club-img {
+    width: 90%;
+}
+
+.join-sports-heist-nocost button {
+    width: 100%;
+}
+
 
 /* !Footer */
 .footer .container {
