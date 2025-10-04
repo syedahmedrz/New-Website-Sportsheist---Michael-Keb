@@ -80,7 +80,7 @@
 
     <!-- !Form -->
     <section class="formm">
-        
+
         <div class="container">
             <div class="blur-topleft"></div>
             <div class="blur-bottomright"></div>
@@ -106,7 +106,7 @@
                         <!-- Jurisdiction -->
                         <div class="form-group">
                             <label>Jurisdictional level</label>
-                            <select class="select">
+                            <select class="select" id="jurisdictionSelect">
                                 <option value="">Select</option>
                                 <option value="international">International</option>
                                 <option value="national">National</option>
@@ -115,6 +115,11 @@
                                 <option value="city">City</option>
                                 <option value="college">College</option>
                             </select>
+                        </div>
+
+                        <div class="form-group" style="display: none;" id="locationInputGroup">
+                            <input type="text" placeholder="COUNTRY, STATE/PROVINCE/COUNTY, CITY/COLLEGE"
+                                class="input" />
                         </div>
 
                         <!-- Address -->
@@ -201,6 +206,19 @@
         </div>
     </footer>
     <script src="Js/navbar.js"></script>
+
+    <script>
+        const jurisdictionSelect = document.getElementById("jurisdictionSelect");
+        const locationInputGroup = document.getElementById("locationInputGroup");
+
+        jurisdictionSelect.addEventListener("change", function () {
+            if (this.value === "national") {
+                locationInputGroup.style.display = "flex";
+            } else {
+                locationInputGroup.style.display = "none";
+            }
+        });
+    </script>
 
 
     <!-- ! -->
