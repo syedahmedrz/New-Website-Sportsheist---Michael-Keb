@@ -47,10 +47,32 @@
     display: block;
 }
 
+.header {    overflow: hidden;
+}
+
 .hero-section {
     flex-direction: column;
     text-align: center;
     gap: 20px;
+
+    align-items: center;
+}
+
+.hero-image {
+    transform: translateX(30px);
+}
+
+.hero-image img {
+    margin-bottom: 50px;
+}
+
+.hero-text,
+.hero-image {
+    flex: 1;
+}
+
+.hero-text .title {
+    font-size: 40px;
 }
 
 .hero-text {
