@@ -297,6 +297,9 @@
 
 .challenges .banner .bpara {
     max-width: 300px;
+    /* display: none; */
+    font-weight: 300 !important;
+    font-family: "Poppins";
 }
 
 .challenges .banner .btn-primary {
