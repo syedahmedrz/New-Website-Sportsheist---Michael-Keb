@@ -65,6 +65,51 @@
     margin-bottom: 0px !important;
 }
 
+/* !Get Involved. instantly. */
+.get-inv-inst {
+    /* margin-top: 150px; */
+}
+
+
+.get-inv-inst .card-container {
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.get-inv-inst .card-container .card {
+
+    min-height: 550px;
+}
+
+.get-inv-inst .title-bar img {
+    max-width: 210px;
+}
+
+.get-inv-inst .title-bar h1 {
+    font-size: 50px !important;
+}
+
+/* banner */
+.get-inv-inst .banner {
+    flex-direction: column;
+}
+
+.get-inv-inst .banner .left img {
+    width: 210px;
+}
+
+.get-inv-inst .banner .right {
+    padding-top: 0px;
+}
+
+.get-inv-inst .banner .btitle {
+    font-size: 40px;
+}
+
+.get-inv-inst .banner .btn-primary {
+    width: 100% !important;
+}
+
 /* ! Your Voice Matters */
 .your-voice-matters-section .grid {
     grid-template-columns: 1fr;
