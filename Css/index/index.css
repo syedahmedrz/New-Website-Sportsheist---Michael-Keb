@@ -88,6 +88,20 @@
     border-radius: 2px;
 }
 
+/* Animation when menu is active */
+.hambarger-menu.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.5s all;
+}
+.hambarger-menu.active span:nth-child(2) {
+    opacity: 0;
+    transition: 0.5s all;
+}
+.hambarger-menu.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.5s all;
+}
+
 
 .hero-section {
     margin-top: 80px !important;
