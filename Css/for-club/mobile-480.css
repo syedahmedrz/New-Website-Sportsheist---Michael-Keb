@@ -71,6 +71,11 @@
     margin-top: 50px;
 }
 
+.challenges .card-container .card {
+
+    min-height: 550px;
+}
+
 .challenges .title-bar img {
     max-width: 210px;
 }
@@ -162,6 +167,10 @@
 .boost-club-ms-inc-fan-com .card-container {
     flex-direction: column;
     margin-top: 50px;
+}
+
+.boost-club-ms-inc-fan-com .card-container .card{
+    min-height: 500px;
 }
 
 .boost-club-ms-inc-fan-com .title-bar img {
