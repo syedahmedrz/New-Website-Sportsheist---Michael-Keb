@@ -32,6 +32,10 @@
     z-index: 100;
 }
 
+.navbar .nav-links.active {
+    display: flex;
+}
+
 .nav-links li {
     width: 100%;
 }
