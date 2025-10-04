@@ -3,9 +3,19 @@
     width: 100%;
     background: linear-gradient(to right, #0F0B1E, #20083D);
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     z-index: 1;
 }
+
+.header .blur-wrapper {
+    /* background-color: rgb(136, 110, 110); */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+}
+
 
 .navbar {
     display: flex;
@@ -97,7 +107,7 @@
     height: auto;
 }
 
-.hero-section .blur-topleft {
+.header .blur-topleft {
     position: absolute;
     width: 300px;
     height: 300px;
@@ -109,7 +119,7 @@
     /* opacity: 0.7; */
 }
 
-.hero-section .blur-bottomright {
+.header .blur-bottomright {
     position: absolute;
     width: 300px;
     height: 300px;
