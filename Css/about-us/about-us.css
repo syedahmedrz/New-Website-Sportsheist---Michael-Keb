@@ -92,6 +92,10 @@
     flex: 1;
 }
 
+.hero-image {
+    margin-right: -70px;
+}
+
 .hero-image img {
     width: 100%;
     height: auto;

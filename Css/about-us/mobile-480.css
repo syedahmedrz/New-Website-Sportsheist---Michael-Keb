@@ -53,6 +53,14 @@
     gap: 20px;
 }
 
+
+.hero-image {
+    margin-right: 0px;
+}
+.hero-image img {
+    margin-bottom: -69px !important;
+}
+
 .hero-text {
     align-items: center;
 }
@@ -69,6 +77,16 @@
 /* ! ABOUT DIGITAL SPORTS CLUBS LABS */
 .about-digital-sports-club-labs .container {
     flex-direction: column-reverse;
+}
+
+.about-digital-sports-club-labs .blur-center{
+    width: 200px;
+    height: 200px;
+}
+
+.what-we-do-at-dsc-labs .blur-center {
+    width: 200px;
+    height: 200px;
 }
 
 .about-digital-sports-club-labs .right {
