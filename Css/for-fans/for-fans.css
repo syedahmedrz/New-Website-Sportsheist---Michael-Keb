@@ -608,7 +608,7 @@ margin-bottom: 0px;
 }
 
 .fair-secure-part-section .btn-primary {
-    width: 400px !important;
+    max-width: 400px !important;
 }
 
 .fair-secure-part-section .Download-btn {

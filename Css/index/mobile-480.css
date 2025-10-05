@@ -313,6 +313,10 @@
     width: 90%;
 }
 
+.ready-to-take-your-club button {
+    width: 100% !important;
+}
+
 /* !Footer */
 .footer .container {
     flex-direction: column;
