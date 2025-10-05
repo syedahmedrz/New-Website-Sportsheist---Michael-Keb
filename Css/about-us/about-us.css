@@ -270,6 +270,10 @@
     /* overflow: hidden; */
 }
 
+.why-sportsheist .con1 {
+    padding-top: 0px !important;
+}
+
 .why-sportsheist .blur-wrapper {
     width: 100%;
     height: 100%;
