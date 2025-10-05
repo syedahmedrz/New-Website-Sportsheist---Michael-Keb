@@ -68,6 +68,19 @@
 margin-bottom: 0px !important;
 }
 
+.get-inv-inst .card-container {
+    flex-direction: column;
+}
+
+.get-inv-inst .card-container .card {
+}
+
+.get-inv-inst .card-container .card img  {
+ 
+
+}
+
+
 /* ! Your Voice Matters */
 .your-voice-matters-section .grid {
     display: grid;
