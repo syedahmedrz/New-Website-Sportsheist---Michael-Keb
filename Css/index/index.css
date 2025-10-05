@@ -460,6 +460,7 @@
     min-height: 300px;
     align-items: center;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .choose-your-path .vr {
@@ -579,6 +580,10 @@
     z-index: -1;
 }
 
+.how-it-works p{
+    text-align: justify;
+}
+
 /* ! Our Sports & Club Partnerships */
 .horizontal-images {
     display: grid;
@@ -640,13 +645,14 @@
 .horizontal-images .blur-topcenter {
     position: absolute;
     width: 70%;
-    height: 100px;
+    height: 150px;
     background: #DFAA11;
-    filter: blur(60px);
-    top: 0;
+    filter: blur(40px);
+    top: -35px;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
+    border-radius: 50%;
 
 }
 
