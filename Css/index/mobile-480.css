@@ -141,6 +141,7 @@
 
 .why-sportsheist .card-right2 img {
     width: 100%;
+    max-width: 100%;
     position: static;
 }
 
@@ -151,7 +152,29 @@
 
 .why-sportsheist .card1 .card-right {
     padding: 20px;
+    align-items: start;
+}
 
+.why-sportsheist .blur-rightmiddle {
+    position: absolute;
+    width: 150px !important;
+    height: 150px !important;
+    background: #DFAA11 !important;
+    filter: blur(70px) !important;
+    bottom: -75px !important;
+    right: -50px !important;
+    /* transform: translateY(-50%); */
+    top: inherit;
+    z-index: -1 !important;
+}
+
+.why-sportsheist .card-center-blur {
+    width: 100%;
+    bottom: -215px;
+}
+
+.why-sportsheist .card-right2 .card-left-sec2 img {
+    margin-right: 0px;
 }
 
 .why-sportsheist .card2 .card-left {
