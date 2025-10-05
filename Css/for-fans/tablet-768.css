@@ -73,11 +73,12 @@ margin-bottom: 0px !important;
 }
 
 .get-inv-inst .card-container .card {
+    width: 100%;
 }
 
 .get-inv-inst .card-container .card img  {
  
-
+    margin-right: 50px;
 }
 
 

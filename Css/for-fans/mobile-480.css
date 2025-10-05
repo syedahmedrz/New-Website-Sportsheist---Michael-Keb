@@ -88,16 +88,22 @@
 
 .get-inv-inst .card-container .card {
 
-    min-height: 370px;
+    min-height: 330px;
 }
 
 .get-inv-inst .card-container .card img  {
     left: 50%;
-    margin-top: -30px;
+    margin-top: -60px;
     transform: translateX(-50%);
     max-width: 192px;
 
 }
+
+.get-inv-inst .card-container .card .ndimg {
+    max-width: 170px !important;
+    
+}
+
 
 .get-inv-inst .title-bar img {
     max-width: 150px;
