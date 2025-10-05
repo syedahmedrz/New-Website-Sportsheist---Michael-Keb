@@ -53,6 +53,16 @@
     gap: 20px;
 }
 
+.hero-image {
+    margin-right: 0px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -80px
+}
+
 .hero-text {
     align-items: center;
 }
