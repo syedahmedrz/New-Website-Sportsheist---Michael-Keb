@@ -53,6 +53,11 @@
     gap: 20px;
 }
 
+.hero-text .title {
+    font-size: 50px;
+    line-height: inherit;
+}
+
 .hero-image {
     margin-right: 0px;
 }

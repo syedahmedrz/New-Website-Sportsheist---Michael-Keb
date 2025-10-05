@@ -125,6 +125,11 @@
     /* opacity: 0.9; */
 }
 
+.hero-text .title {
+    font-size: 99px;
+    line-height: 95px;
+}
+
 /* ! What is Sports Heist? */
 .what-is-sports-heist {
     width: 100%;

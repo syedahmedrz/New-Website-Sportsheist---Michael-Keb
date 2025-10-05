@@ -114,6 +114,11 @@ margin-bottom: 0px;
     /* opacity: 0.7; */
 }
 
+.hero-text .title {
+    font-size: 99px;
+    line-height: 95px;
+}
+
 .hero-section .blur-bottomright {
     position: absolute;
     width: 300px;
