@@ -62,7 +62,12 @@
 }
 
 .hero-image {
-    margin-bottom: 0px !important;
+}
+
+
+.hero-image {
+    margin-bottom: 58px !important;
+    margin-right: 0px;
 }
 
 /* !Get Involved. instantly. */

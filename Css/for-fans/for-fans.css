@@ -92,6 +92,11 @@
     flex: 1;
 }
 
+.hero-image {
+margin-right: -100px;
+margin-bottom: 0px;
+}
+
 .hero-image img {
     width: 100%;
     height: auto;

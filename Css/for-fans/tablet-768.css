@@ -64,6 +64,10 @@
     font-size: 15px !important;
 }
 
+.hero-image {
+margin-bottom: 0px !important;
+}
+
 /* ! Your Voice Matters */
 .your-voice-matters-section .grid {
     display: grid;
@@ -99,6 +103,10 @@
     top: -120px;
     width: 80%;
 
+}
+
+.get-inv-inst .banner .left img{ 
+    width: 100%;
 }
 
 /* ! Fair & Secure Participation */
