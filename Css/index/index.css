@@ -53,6 +53,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 10px;
 }
 
 .nav-links .nav-links-login {
@@ -64,6 +65,16 @@
     background-color: var(--secondary-color);
     border-radius: 12px;
     font-weight: 500;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+.login-btn {
+    padding: 0 20px;
 }
 
 .hambarger-menu {
@@ -128,8 +139,9 @@
 }
 
 .hero-text {
-    max-width: 480px;
+    max-width: 520px;
     padding-top: 30px;
+    padding-left: 20px;
     /* background-color: red; */
 }
 
@@ -170,6 +182,10 @@
 }
 
 /* !WHY SPORTS HEIST? */
+.why-sportsheist {
+    padding: 90px 0;
+}
+
 .why-sportsheist h1 {
     text-align: right;
 }
@@ -239,7 +255,7 @@
 .why-sportsheist .card-left1 img {
     max-width: 350px;
     position: absolute;
-    bottom: 0px;
+    bottom: 8px;
 }
 
 /*  */
@@ -266,7 +282,7 @@
 .why-sportsheist .card-right2 img {
     max-width: 500px;
     position: absolute;
-    bottom: 0px;
+    bottom: 8px;
     
     right: 0px;
 }
@@ -343,6 +359,10 @@
 
 .how-were-changing-the-game .image {
     grid-area: image;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-12px);
 }
 
 .how-were-changing-the-game .card1 {
@@ -350,6 +370,7 @@
     flex-direction: column;
     gap: 15px;
     grid-area: card1;
+    align-items: flex-start;
 }
 
 .how-were-changing-the-game .card2 {
@@ -357,6 +378,7 @@
     flex-direction: column;
     gap: 15px;
     grid-area: card2;
+    align-items: flex-start;
 }
 
 .how-were-changing-the-game .card3 {
@@ -364,6 +386,7 @@
     flex-direction: column;
     gap: 15px;
     grid-area: card3;
+    align-items: flex-start;
 }
 
 .how-were-changing-the-game .card4 {
@@ -371,6 +394,7 @@
     flex-direction: column;
     gap: 15px;
     grid-area: card4;
+    align-items: flex-start;
 }
 
 .how-were-changing-the-game .blur-center {
@@ -424,7 +448,7 @@
     background-color: #0F0B1E;
     position: relative;
     z-index: 1;
-    margin-top: 100px;
+    margin-top: 140px;
     /* overflow: hidden; */
 }
 
@@ -464,6 +488,12 @@
     padding-bottom: 100px;
 }
 
+.choose-your-path .cards .card1 button,
+.choose-your-path .cards .card2 button {
+    margin-top: 30px;
+    width: 200px;
+}
+
 .choose-your-path .vr {
     width: 2px;
     height: 200px;
@@ -479,6 +509,9 @@
     gap: 0px;
     flex: 1;
     position: relative;
+    /* min-height: 400px;
+    background: linear-gradient(to bottom, transparent 0%, rgba(170, 149, 240, 0.1) 100%);
+    border-radius: 12px; */
 }
 
 .choose-your-path img {
@@ -526,7 +559,7 @@
     grid-template-areas:
         "card1 image card3"
         "card2 image card4";
-    gap: 50px;
+    gap: 70px;
     background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
         linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
     border-radius: 12px;
@@ -638,7 +671,7 @@
 } */
 
 .horizontal-images .image-card p {
-    margin: 5px 0 10px;
+    margin: 5px 0 30px;
     font-size: 20px;
     z-index: 100;
 }
@@ -668,7 +701,8 @@
     gap: 10px;
     width: 100%;
     height: 100%;
-    background-color: #0009;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 50px;
 }
 
 .horizontal-images .center-content .wrapper {
