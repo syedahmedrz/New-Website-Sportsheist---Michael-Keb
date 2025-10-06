@@ -111,24 +111,24 @@
     height: auto;
 }
 
-.hero-section .blur-topleft {
+.header .blur-topleft {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     background: #542BE2;
-    filter: blur(150px);
+    filter: blur(100px);
     top: -100px;
     left: -100px;
     z-index: -1;
     /* opacity: 0.7; */
 }
 
-.hero-section .blur-bottomright {
+.header .blur-bottomright {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     background: #DFAA11;
-    filter: blur(150px);
+    filter: blur(100px);
     bottom: -100px;
     right: -100px;
     z-index: -1;
