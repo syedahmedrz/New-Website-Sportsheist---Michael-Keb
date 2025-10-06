@@ -236,10 +236,10 @@
 
 .header .blur-topleft {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     background: #542BE2;
-    filter: blur(150px);
+    filter: blur(100px);
     top: -100px;
     left: -100px;
     z-index: -1;
