@@ -85,6 +85,16 @@
     gap: 20px;
     display: flex;
     flex-direction: column;
+    max-width: 520px;
+    padding-left: 20px;
+}
+
+/* Mobile responsive - remove padding on mobile */
+@media screen and (max-width: 767px) {
+    .hero-text {
+        padding-left: 0;
+        max-width: 100%;
+    }
 }
 
 .hero-text,

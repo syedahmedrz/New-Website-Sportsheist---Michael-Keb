@@ -145,6 +145,14 @@
     /* background-color: red; */
 }
 
+/* Mobile responsive - remove padding on mobile */
+@media screen and (max-width: 767px) {
+    .hero-text {
+        padding-left: 0;
+        max-width: 100%;
+    }
+}
+
 .hero-text .title {
     font-size: 99px;
     line-height: 95px;
