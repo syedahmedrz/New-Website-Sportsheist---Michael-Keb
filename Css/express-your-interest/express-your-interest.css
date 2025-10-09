@@ -239,6 +239,7 @@ left: 50%;
   font-weight: 500;
   font-size: 1rem;
   text-transform: capitalize;
+  font-family: "Poppins";
 }
 
 .input,
@@ -250,12 +251,16 @@ left: 50%;
   background: #20083D;
   color: white;
   padding: 0 1rem;
+  font-family: "Poppins";
+
   font-size: 0.9rem;
 }
 
 .input::placeholder,
 .textarea::placeholder {
   color: rgba(165, 165, 165, 0.72);
+  font-family: "Poppins";
+
 }
 
 .textarea {
@@ -306,6 +311,8 @@ left: 50%;
 .btn {
   width: 100%;
   max-width: 309px;
+  font-family: "Poppins";
+
   height: 52px;
   background: #542BE2;
   color: white;
