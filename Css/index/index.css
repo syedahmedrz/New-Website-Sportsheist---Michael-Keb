@@ -631,12 +631,12 @@
 
 .how-it-works .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 01fr 1fr;
     grid-template-areas:
         "card1 image card3"
         "card2 image card4";
-    gap: 70px;
+    gap: 20px;
     background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
         linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
     border-radius: 12px;
@@ -692,7 +692,14 @@
 }
 
 .how-it-works p{
-    text-align: justify;
+    /* text-align: justify; */
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.how-it-works h3{
+    font-weight: 600;
+    font-size: 14x !important;
 }
 
 /* ! Our Sports & Club Partnerships */
@@ -713,7 +720,7 @@
     align-items: end;
     justify-content: center;
     text-align: center;
-    min-height: 500px;
+    min-height: 650px;
     /* background-attachment: fixed; */
     background-position: center center;
     background-size: cover;
@@ -749,7 +756,7 @@
 
 .horizontal-images .image-card p {
     margin: 5px 0 30px;
-    font-size: 20px;
+    font-size: 50px;
     z-index: 100;
 }
 
@@ -789,6 +796,7 @@
     justify-content: center;
     gap: 20px;
 }
+
 
 /* !Partnership */
 .partnership .container {
