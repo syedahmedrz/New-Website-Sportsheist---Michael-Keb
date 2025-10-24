@@ -206,13 +206,30 @@ section {
 .logo-mobile {
     display: none;
 }
-    @media screen and (max-width: 700px) {
-        .logo-desktop {
-            display: none;
-        }
-    
-        .logo-mobile {
-            display: block;
-        }
-    
+
+@media screen and (max-width: 700px) {
+    .logo-desktop {
+        display: none;
     }
+
+    .logo-mobile {
+        display: block;
+    }
+
+    .header .blur-topleft {
+        /* width: 200px;
+        height: 200px; */
+    background: #532be29c !important;
+    display: none;
+
+    }
+
+    .header .blur-bottomright {
+        /* width: 200px;
+        height: 200px;
+        filter: blur(200px); */
+    background: #DFAA11;
+
+    }
+
+}
