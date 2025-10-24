@@ -182,4 +182,9 @@ section {
         height: 52px;
     }
 
+    .footer-login-2 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+
 }
