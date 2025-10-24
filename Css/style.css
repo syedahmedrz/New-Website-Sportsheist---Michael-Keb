@@ -147,4 +147,10 @@ section {
         font-weight: normal;
     }
 
+    .horizontal-images_title {
+        font-size: 128px;
+        line-height: 120px;
+        font-weight: normal !important;
+    }
+
 }
