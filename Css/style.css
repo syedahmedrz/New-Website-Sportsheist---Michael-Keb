@@ -128,5 +128,17 @@ section {
     .why__sportsheist__title {
         font-size: 128px;
     }
-    
+
+    .how__werre__chain__title,
+    .choose__your_path__title {
+        font-weight: normal;
+        font-size: 96px;
+    }
+
+    .choose__your_path__sub_title {
+        font-family: Poppins;
+        max-width: 700px;
+        font-size: 24px;
+        font-weight: 500;
+    }
 }
