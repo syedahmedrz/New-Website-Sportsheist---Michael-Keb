@@ -66,6 +66,10 @@
     transform: translateX(10px);
 }
 
+    .hero-section {
+        margin-top:  16px !important;
+    }
+
 .hero-image img {
     margin-bottom: 60px;
 }
