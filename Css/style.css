@@ -177,4 +177,9 @@ section {
         font-size: 48px !important;
     }
 
+    .read___btn {
+        width: 298px;
+        height: 52px;
+    }
+
 }
