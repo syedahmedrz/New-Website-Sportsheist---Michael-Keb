@@ -165,4 +165,8 @@ section {
          width: 230px ;
     }
 
+    .get-started__title {
+        font-size: 70px !important;
+    }
+
 }
