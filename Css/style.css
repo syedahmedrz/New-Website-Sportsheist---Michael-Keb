@@ -130,7 +130,8 @@ section {
     }
 
     .how__werre__chain__title,
-    .choose__your_path__title, .how__it__work__title {
+    .choose__your_path__title,
+    .how__it__work__title {
         font-weight: normal;
         font-size: 96px;
     }
@@ -162,7 +163,7 @@ section {
     }
 
     .partnershipbtn {
-         width: 230px ;
+        width: 230px;
     }
 
     .get-started__title {
@@ -187,4 +188,31 @@ section {
         font-weight: 500 !important;
     }
 
+    .logo-desktop {
+        display: block;
+    }
+
+    .logo-mobile {
+        display: none;
+    }
+
 }
+
+
+.logo-desktop {
+    display: block;
+}
+
+.logo-mobile {
+    display: none;
+}
+    @media screen and (max-width: 700px) {
+        .logo-desktop {
+            display: none;
+        }
+    
+        .logo-mobile {
+            display: block;
+        }
+    
+    }
