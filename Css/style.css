@@ -196,6 +196,11 @@ section {
         display: none;
     }
 
+    .horizontal-images .image-card p {
+        margin: 5px 0 30px;
+        font-size: 64px;
+        z-index: 100;
+    }
 }
 
 
@@ -219,8 +224,9 @@ section {
     .header .blur-topleft {
         /* width: 200px;
         height: 200px; */
-    background: #532be29c !important;
-    display: none;
+        background: #532be2 !important;
+        filter: blur(200px) !important;
+
 
     }
 
@@ -228,7 +234,8 @@ section {
         /* width: 200px;
         height: 200px;
         filter: blur(200px); */
-    background: #DFAA11;
+        background: #dfac11 !important;
+        filter: blur(200px) !important;
 
     }
 
