@@ -124,5 +124,9 @@ section {
         font-weight: normal !important;
         line-height: 85px !important;
     }
+
+    .why__sportsheist__title {
+        font-size: 128px;
+    }
     
 }
