@@ -204,9 +204,13 @@ section {
     .why__sportsheist__cardst {
         font-size: 20px !important;
     }
+
+    .chall__title {
+        margin-top: -40px !important;
+    }
 }
 
-
+/* !in general */
 .logo-desktop {
     display: block;
 }
@@ -215,6 +219,7 @@ section {
     display: none;
 }
 
+/* !Mobile */
 @media screen and (max-width: 700px) {
     .logo-desktop {
         display: none;
