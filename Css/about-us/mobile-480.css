@@ -3,6 +3,7 @@
     font-size: 50px;
 }
 
+
 .navbar {
     border: 0.5px solid rgba(255, 255, 255, 0.395);
     border-radius: 12px;
@@ -32,6 +33,10 @@
     z-index: 100;
 }
 
+.navbar .nav-links.active {
+    display: flex;
+}
+
 .nav-links li {
     width: 100%;
 }
@@ -47,21 +52,38 @@
     display: block;
 }
 
+.header {
+    overflow: hidden;
+}
+
 .hero-section {
     flex-direction: column;
     text-align: center;
     gap: 20px;
-}
-.hero-text .title {
-    font-size: 50px;
-    line-height: inherit;
+
+    align-items: center;
 }
 
 .hero-image {
-    margin-right: 0px;
+    transform: translateX(10px);
 }
+
+.hero-section {
+    margin-top: 16px !important;
+}
+
 .hero-image img {
-    margin-bottom: -69px !important;
+    /* margin-bottom: 60px; */
+}
+
+.hero-text,
+.hero-image {
+    flex: 1;
+}
+
+.hero-text .title {
+    font-size: 50px;
+    line-height: inherit;
 }
 
 .hero-text {
@@ -82,7 +104,7 @@
     flex-direction: column-reverse;
 }
 
-.about-digital-sports-club-labs .blur-center{
+.about-digital-sports-club-labs .blur-center {
     width: 200px;
     height: 200px;
 }
