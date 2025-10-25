@@ -162,6 +162,12 @@
     align-items: center;
 }
 
+.your-voice-matters-section .blur-center {
+    width: 200px;
+    height: 200px;
+}
+
+
 /* !Virtual local room */
 .virtual-local-room .cards .container {
     flex-direction: column;
