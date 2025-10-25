@@ -101,6 +101,14 @@
 /* !Protecting clubs from vote manipulation and fraudulent memberships. */
 
 /* !Join Sports Heist At No Cost to Your Club */
+.join-chips-container {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.join-chips-container .chip {
+    width: 100%;
+}
 
 /* !footer */
 .footer .footer-login-1 {

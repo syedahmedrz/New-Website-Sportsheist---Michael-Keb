@@ -235,6 +235,14 @@
     width: 100%;
 }
 
+.join-chips-container {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.join-chips-container .chip {
+    width: 100%;
+}
 
 /* !Footer */
 .footer .container {

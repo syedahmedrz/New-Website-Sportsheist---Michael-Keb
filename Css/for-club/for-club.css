@@ -1070,6 +1070,33 @@ p {
 }
 
 
+.join-chips-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.join-chips-container .chip {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+        background: linear-gradient(#0F0B1E, #0F0B1E) padding-box,
+        linear-gradient(to bottom right, #AA95F0, #542BE2, #20083D) border-box;
+    border-radius: 12px;
+    /* Example for a highly rounded border */
+    border: 1.4px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+}
+
 /* !Footer */
 .footer .container {
     display: flex;
