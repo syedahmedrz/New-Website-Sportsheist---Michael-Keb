@@ -277,6 +277,11 @@
     font-size: 10px;
 }
 
+.fair-secure-part-section .blur-bottomleft {
+   width: 100px;
+   height: 100px;
+}
+
 
 /* ! Become an influencern */
 .become-aninfl-section .con-wrapper {
