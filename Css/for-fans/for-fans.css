@@ -570,6 +570,10 @@ margin-bottom: 0px;
     justify-content: center;
 }
 
+.fair-secure-part-section .btnfcx {
+    max-width: 400px !important;
+}
+
 .fair-secure-part-section .getstr-left img {
     max-width: 500px;
     height: auto;
@@ -617,7 +621,8 @@ margin-bottom: 0px;
 }
 
 .fair-secure-part-section button {
-    min-width: 300px;
+    min-width: fit-content;
+    padding: 0px 20px;
 }
 
 .fair-secure-part-section .blur-bottomleft {
