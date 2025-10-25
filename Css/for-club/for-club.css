@@ -278,24 +278,27 @@
 
 .challenges .banner .blur {
     position: absolute;
-    width: 80%;
-    height: 300px;
-    background: #dfac1131;
-    filter: blur(40px);
-    right: 0px;
-    /* top: -50px; */
+    width: 200px;
+    height: 200px;
+    background: #dfac11;
+    filter: blur(70px);
+    left: 50%;
+    transform: translate(-50%);
+    top: -50px;
     /* transform: translateX(-50%); */
     z-index: -1;
 }
 
 .challenges .banner .right {
     display: flex;
+    position: relative;
     flex-direction: column;
     gap: 10px;
     align-items: center;
     flex: 1;
     text-align: center;
     justify-content: center;
+    overflow: hidden;
     padding: 30px;
 }
 
