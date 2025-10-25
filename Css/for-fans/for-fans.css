@@ -565,6 +565,14 @@ margin-bottom: 0px;
 .fair-secure-part-section .getstr-left,
 .getstr-right {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fair-secure-part-section .getstr-left img {
+    max-width: 500px;
+    height: auto;
 }
 
 .fair-secure-part-section .title {
