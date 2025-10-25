@@ -27,7 +27,12 @@
 
     <!--! Header Section -->
     <div class="header">
-        <div class="container">
+        <div class="blur-wrapper">
+            <div class="blur-topleft"></div>
+            <div class="blur-bottomright"></div>
+        </div>
+
+        <div class="container ">
             <!-- Navbar -->
             <nav class="navbar">
                 <div class="logo">
@@ -40,7 +45,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="for-fans.html">For Fans</a></li>
                     <li><a class="active" href="for-club.html">For Clubs</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a  href="about-us.html">About Us</a></li>
                     <li><a class="nav-links-login" href="#login">Login</a></li>
                 </ul>
                 <div class="nav-buttons">
@@ -53,30 +58,31 @@
                 </div>
             </nav>
 
-            <!-- Hero Section -->
-            <div class="hero-section">
-
-                <div class="blur-topleft"></div>
-                <div class="blur-bottomright"></div>
-
+        </div>
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="container hero-section-container">
                 <div class="hero-text">
                     <h1 class="title hero__title">Fans help revenue, insights & opportunity</h1>
-
-                    <p style="font-family: Poppins;">
-                        Monetise passion, streamline fan management while clubs stay in full control - at no cost to the
-                        club.
-                    </p>
+                    <div style="max-width:400px;">
+                        <p style="font-family: Poppins; font-size: 15px;">
+         Monetise passion, streamline fan management while clubs stay in full control - at no cost to the club.
+                        </p>
+                    </div>
 
                     <button class="get-started-btn btn-primary" style="font-weight: 600 !important;">Get
                         Started</button>
                 </div>
-                <div class="hero-image">
-                    <img src="Assets/Images/for-clubs/Fans help revenue, insights & opportunity.png" />
-                </div>
+            </div>
+
+            <!-- image kept outside container -->
+            <div class="hero-image">
+                <img src="Assets/Images/for-clubs/Fans help revenue, insights & opportunity.png" />
+
             </div>
         </div>
-    </div>
 
+    </div>
 
     <!-- ! CHALLENGEs -->
     <section class="challenges">

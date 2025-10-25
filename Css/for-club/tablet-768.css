@@ -51,9 +51,10 @@
 }
 
 .hero-section {
-    flex-direction: column;
+    /* flex-direction: column-reverse; */
     text-align: center;
     gap: 20px;
+    align-items: center;
 }
 
 .hero-text {
