@@ -27,7 +27,12 @@
 
     <!--! Header Section -->
     <div class="header">
-        <div class="container">
+        <div class="blur-wrapper">
+            <div class="blur-topleft"></div>
+            <div class="blur-bottomright"></div>
+        </div>
+
+        <div class="container ">
             <!-- Navbar -->
             <nav class="navbar">
                 <div class="logo">
@@ -40,7 +45,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a class="active" href="for-fans.html">For Fans</a></li>
                     <li><a href="for-club.html">For Clubs</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a  href="about-us.html">About Us</a></li>
                     <li><a class="nav-links-login" href="#login">Login</a></li>
                 </ul>
                 <div class="nav-buttons">
@@ -53,27 +58,31 @@
                 </div>
             </nav>
 
-            <!-- Hero Section -->
-            <div class="hero-section">
-
-                <div class="blur-topleft"></div>
-                <div class="blur-bottomright"></div>
-
+        </div>
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="container hero-section-container">
                 <div class="hero-text">
                     <h1 class="title hero__title">Your Club.
-                        Your Voice.
-                        Your Influence.</h1>
-                    <p style="font-family: Poppins;">
-                        Join Sports Heist and take your fandom to the next level—engage, vote, and make an impact.
-                    </p>
+Your Voice. 
+Your Influence.</h1>
+                    <div style="max-width:400px;">
+                        <p style="font-family: Poppins; font-size: 15px;">
+                Join Sports Heist and take your fandom to the next level—engage, vote, and make an impact.
+                        </p>
+                    </div>
+
                     <button class="get-started-btn btn-primary" style="font-weight: 600 !important;">Join Now</button>
                 </div>
-                <div class="hero-image">
-                    <img src="Assets/Images/for-fans/Your Club. Your Voice. Your Influence..png"
-                        alt="Sportsheist Hero Image" style="margin-bottom: -115px;" />
-                </div>
+            </div>
+
+            <!-- image kept outside container -->
+            <div class="hero-image">
+                <img src="Assets/Images/for-fans/Your Club. Your Voice. Your Influence..png" />
+
             </div>
         </div>
+
     </div>
 
     <!-- ! Get Involved. instantly. -->

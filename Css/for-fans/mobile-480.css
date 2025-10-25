@@ -3,6 +3,7 @@
     font-size: 50px;
 }
 
+
 .navbar {
     border: 0.5px solid rgba(255, 255, 255, 0.395);
     border-radius: 12px;
@@ -32,6 +33,10 @@
     z-index: 100;
 }
 
+.navbar .nav-links.active {
+    display: flex;
+}
+
 .nav-links li {
     width: 100%;
 }
@@ -47,14 +52,33 @@
     display: block;
 }
 
+.header {
+    overflow: hidden;
+}
+
 .hero-section {
     flex-direction: column;
     text-align: center;
     gap: 20px;
+
+    align-items: center;
 }
 
-.hero-text {
-    align-items: center;
+.hero-image {
+    transform: translateX(10px);
+}
+
+.hero-section {
+    margin-top: 16px !important;
+}
+
+.hero-image img {
+    /* margin-bottom: 60px; */
+}
+
+.hero-text,
+.hero-image {
+    flex: 1;
 }
 
 .hero-text .title {
@@ -62,17 +86,12 @@
     line-height: inherit;
 }
 
+.hero-text {
+    align-items: center;
+}
+
 .hero-text p {
     font-size: 15px !important;
-}
-
-.hero-image {
-}
-
-
-.hero-image {
-    margin-bottom: 58px !important;
-    margin-right: 0px;
 }
 
 /* !Get Involved. instantly. */

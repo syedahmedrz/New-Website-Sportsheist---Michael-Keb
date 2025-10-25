@@ -51,9 +51,10 @@
 }
 
 .hero-section {
-    flex-direction: column;
+    /* flex-direction: column-reverse; */
     text-align: center;
     gap: 20px;
+    align-items: center;
 }
 
 .hero-text {
@@ -62,10 +63,6 @@
 
 .hero-text p {
     font-size: 15px !important;
-}
-
-.hero-image {
-margin-bottom: 0px !important;
 }
 
 .get-inv-inst .card-container {
