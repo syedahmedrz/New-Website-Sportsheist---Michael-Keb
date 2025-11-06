@@ -106,12 +106,12 @@
 }
 
 .virtual-local-room .img1 {
-    top: -200px;
+    /* top: -200px; */
     width: 70%;
 }
 
 .virtual-local-room .img2 {
-    top: -120px;
+    /* top: -120px; */
     width: 80%;
 
 }
